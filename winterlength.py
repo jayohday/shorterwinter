@@ -571,6 +571,76 @@ try:
 except:
     winter_1917_1918_9 = None
 
+try:
+    winter_1917_1918_10 = l1[10] + ba[10]
+except:
+    winter_1917_1918_10 = None
+
+try:
+    winter_1917_1918_11 = l1[11] + ba[11]
+except:
+    winter_1917_1918_11 = None
+
+try:
+    winter_1917_1918_12 = l1[12] + ba[12]
+except:
+    winter_1917_1918_12 = None
+
+try:
+    winter_1917_1918_13 = l1[13] + ba[13]
+except:
+    winter_1917_1918_13 = None
+
+try:
+    winter_1917_1918_14 = l1[14] + ba[14]
+except:
+    winter_1917_1918_14 = None
+
+try:
+    winter_1917_1918_15 = l1[15] + ba[15]
+except:
+    winter_1917_1918_15 = None
+
+try:
+    winter_1917_1918_16 = l1[16] + ba[16]
+except:
+    winter_1917_1918_16 = None
+
+try:
+    winter_1917_1918_17 = l1[17] + ba[17]
+except:
+    winter_1917_1918_17 = None
+
+try:
+    winter_1917_1918_18 = l1[18] + ba[18]
+except:
+    winter_1917_1918_18 = None
+
+try:
+    winter_1917_1918_19 = l1[19] + ba[19]
+except:
+    winter_1917_1918_19 = None
+
+try:
+    winter_1917_1918_20 = l1[20] + ba[20]
+except:
+    winter_1917_1918_20 = None
+
+try:
+    winter_1917_1918_21 = l1[21] + ba[21]
+except:
+    winter_1917_1918_21 = None
+
+try:
+    winter_1917_1918_22 = l1[22] + ba[22]
+except:
+    winter_1917_1918_22 = None
+
+try:
+    winter_1917_1918_23 = l1[23] + ba[23]
+except:
+    winter_1917_1918_23 = None
+
 #last spring freeze values for #1919
 
 bb = []
