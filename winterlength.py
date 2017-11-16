@@ -6,20 +6,21 @@ mo = openpyxl.load_workbook('missouri.xlsx')
 #open and load sheet
 mosheet = mo.get_sheet_by_name('missouri')
 
-#calculating fall half of winter with first fall freeze dates
+#calculating fall part of winter with first fall freeze dates
 
 #1917
 
+#getting cell values out of each column; each column is a year
 l = []
 for rowOfCellObjects in mosheet['L2':'L25']:
     for cellObj in rowOfCellObjects:
         l.append(cellObj.value)
 
+#making list of winter lengths from each column/year
 l1 = []
-
 for i in l:
     try:
-        x = 364 - i
+        x = 365 - (i-1)
     except:
     	x = None
     l1.append(x)
@@ -35,7 +36,7 @@ m1 = []
 
 for i in m:
     try:
-        x = 364 - i
+        x = 365 - (i-1)
     except:
         x = None
     m1.append(x)
@@ -51,7 +52,7 @@ n1 = []
 
 for i in n:
     try:
-        x = 364 - i
+        x = 365 - (i-1)
     except:
         x = None
     n1.append(x)
@@ -67,7 +68,7 @@ o1 = []
 
 for i in o:
     try:
-        x = 365 - i
+        x = 366 - (i-1)
     except:
         x = None
     o1.append(x)
@@ -83,7 +84,7 @@ p1 = []
 
 for i in p:
     try:
-        x = 364 - i
+        x = 365 - (i-1)
     except:
         x = None
     p1.append(x)
@@ -99,7 +100,7 @@ q1 = []
 
 for i in q:
     try:
-        x = 364 - i
+        x = 365 - (i-1)
     except:
         x = None
     q1.append(x)
@@ -115,7 +116,7 @@ r1 = []
 
 for i in r:
     try:
-        x = 364 - i
+        x = 365 - (i-1)
     except:
         x = None
     r1.append(x)
@@ -131,7 +132,7 @@ s1 = []
 
 for i in s:
     try:
-        x = 365 - i
+        x = 366 - (i-1)
     except:
         x = None
     s1.append(x)
@@ -147,7 +148,7 @@ t1 = []
 
 for i in t:
     try:
-        x = 364 - i
+        x = 365 - (i-1)
     except:
         x = None
     t1.append(x)
