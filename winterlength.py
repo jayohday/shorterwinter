@@ -21,7 +21,7 @@ for i in l:
     try:
         x = 364 - i
     except:
-        continue
+    	x = None
     l1.append(x)
 
 #1918
@@ -37,7 +37,7 @@ for i in m:
     try:
         x = 364 - i
     except:
-        continue
+        x = None
     m1.append(x)
 
 #1919
@@ -53,7 +53,7 @@ for i in n:
     try:
         x = 364 - i
     except:
-        continue
+        x = None
     n1.append(x)
 
 #1920
@@ -67,7 +67,87 @@ o1 = []
 
 for i in o:
     try:
+        x = 365 - i
+    except:
+        x = None
+    o1.append(x)
+
+#1921
+
+p = []
+for rowOfCellObjects in mosheet['P2':'P25']:
+    for cellObj in rowOfCellObjects:
+        p.append(cellObj.value)
+
+p1 = []
+
+for i in p:
+    try:
         x = 364 - i
     except:
-        continue
-    o1.append(x)
+        x = None
+    p1.append(x)
+
+#1922
+
+q = []
+for rowOfCellObjects in mosheet['Q2':'Q25']:
+    for cellObj in rowOfCellObjects:
+        q.append(cellObj.value)
+
+q1 = []
+
+for i in q:
+    try:
+        x = 364 - i
+    except:
+        x = None
+    q1.append(x)
+
+#1923
+
+r = []
+for rowOfCellObjects in mosheet['R2':'R25']:
+    for cellObj in rowOfCellObjects:
+        r.append(cellObj.value)
+
+r1 = []
+
+for i in r:
+    try:
+        x = 364 - i
+    except:
+        x = None
+    r1.append(x)
+
+#1924
+
+s = []
+for rowOfCellObjects in mosheet['S2':'S25']:
+    for cellObj in rowOfCellObjects:
+        s.append(cellObj.value)
+
+s1 = []
+
+for i in s:
+    try:
+        x = 365 - i
+    except:
+        x = None
+    s1.append(x)
+
+#1925
+
+t = []
+for rowOfCellObjects in mosheet['T2':'T25']:
+    for cellObj in rowOfCellObjects:
+        t.append(cellObj.value)
+
+t1 = []
+
+for i in t:
+    try:
+        x = 364 - i
+    except:
+        x = None
+    t1.append(x)
