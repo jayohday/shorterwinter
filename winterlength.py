@@ -2703,3 +2703,1443 @@ except:
 WL_11.append(winter_1928_1929_23)
 station23.append(winter_1928_1929_23)
 
+#last spring freeze values for #1930
+
+bm = []
+
+for rowOfCellObjects in mosheet['ED2':'ED25']:
+    for cellObj in rowOfCellObjects:
+        bm.append(cellObj.value)
+
+#final winter length calculation for 1929-1930 season for all of 24 Missouri stations
+
+WL_12 = [] #all 1929-1930 winter lengths
+
+try:
+    winter_1929_1930_0 = y1[0] + bm[0]
+except:
+    winter_1929_1930_0 = None
+WL_12.append(winter_1929_1930_0)
+station0.append(winter_1929_1930_0)
+
+try:
+    winter_1929_1930_1 = y1[1] + bm[1]
+except:
+    winter_1929_1930_1 = None
+WL_12.append(winter_1929_1930_1)
+station1.append(winter_1929_1930_1)
+
+try:
+    winter_1929_1930_2 = y1[2] + bm[2]
+except:
+    winter_1929_1930_2 = None
+WL_12.append(winter_1929_1930_2)
+station2.append(winter_1929_1930_2)
+
+try:
+    winter_1929_1930_3 = y1[3] + bm[3]
+except:
+    winter_1929_1930_3 = None
+WL_12.append(winter_1929_1930_3)
+station3.append(winter_1929_1930_3)
+
+try:
+    winter_1929_1930_4 = y1[4] + bm[4]
+except:
+    winter_1929_1930_4 = None
+WL_12.append(winter_1929_1930_4)
+station4.append(winter_1929_1930_4)
+
+try:
+    winter_1929_1930_5 = y1[5] + bm[5]
+except:
+    winter_1929_1930_5 = None
+WL_12.append(winter_1929_1930_5)
+station5.append(winter_1929_1930_5)
+
+try:
+    winter_1929_1930_6 = y1[6] + bm[6]
+except:
+    winter_1929_1930_6 = None
+WL_12.append(winter_1929_1930_6)
+station6.append(winter_1929_1930_6)
+
+try:
+    winter_1929_1930_7 = y1[7] + bm[7]
+except:
+    winter_1929_1930_7 = None
+WL_12.append(winter_1929_1930_7)
+station7.append(winter_1929_1930_7)
+
+try:
+    winter_1929_1930_8 = y1[8] + bm[8]
+except:
+    winter_1929_1930_8 = None
+WL_12.append(winter_1929_1930_8)
+station8.append(winter_1929_1930_8)
+
+try:
+    winter_1929_1930_9 = y1[9] + bm[9]
+except:
+    winter_1929_1930_9 = None
+WL_12.append(winter_1929_1930_9)
+station9.append(winter_1929_1930_9)
+
+try:
+    winter_1929_1930_10 = y1[10] + bm[10]
+except:
+    winter_1929_1930_10 = None
+WL_12.append(winter_1929_1930_10)
+station10.append(winter_1929_1930_10)
+
+try:
+    winter_1929_1930_11 = y1[11] + bm[11]
+except:
+    winter_1929_1930_11 = None
+WL_12.append(winter_1929_1930_11)
+station11.append(winter_1929_1930_11)
+
+try:
+    winter_1929_1930_12 = y1[12] + bm[12]
+except:
+    winter_1929_1930_12 = None
+WL_12.append(winter_1929_1930_12)
+station12.append(winter_1929_1930_12)
+
+try:
+    winter_1929_1930_13 = y1[13] + bm[13]
+except:
+    winter_1929_1930_13 = None
+WL_12.append(winter_1929_1930_13)
+station13.append(winter_1929_1930_13)
+
+try:
+    winter_1929_1930_14 = y1[14] + bm[14]
+except:
+    winter_1929_1930_14 = None
+WL_12.append(winter_1929_1930_14)
+station14.append(winter_1929_1930_14)
+
+try:
+    winter_1929_1930_15 = y1[15] + bm[15]
+except:
+    winter_1929_1930_15 = None
+WL_12.append(winter_1929_1930_15)
+station15.append(winter_1929_1930_15)
+
+try:
+    winter_1929_1930_16 = y1[16] + bm[16]
+except:
+    winter_1929_1930_16 = None
+WL_12.append(winter_1929_1930_16)
+station16.append(winter_1929_1930_16)
+
+try:
+    winter_1929_1930_17 = y1[17] + bm[17]
+except:
+    winter_1929_1930_17 = None
+WL_12.append(winter_1929_1930_17)
+station17.append(winter_1929_1930_17)
+
+try:
+    winter_1929_1930_18 = y1[18] + bm[18]
+except:
+    winter_1929_1930_18 = None
+WL_12.append(winter_1929_1930_18)
+station18.append(winter_1929_1930_18)
+
+try:
+    winter_1929_1930_19 = y1[19] + bm[19]
+except:
+    winter_1929_1930_19 = None
+WL_12.append(winter_1929_1930_19)
+station19.append(winter_1929_1930_19)
+
+try:
+    winter_1929_1930_20 = y1[20] + bm[20]
+except:
+    winter_1929_1930_20 = None
+WL_12.append(winter_1929_1930_20)
+station20.append(winter_1929_1930_20)
+
+try:
+    winter_1929_1930_21 = y1[21] + bm[21]
+except:
+    winter_1929_1930_21 = None
+WL_12.append(winter_1929_1930_21)
+station21.append(winter_1929_1930_21)
+
+try:
+    winter_1929_1930_22 = y1[22] + bm[22]
+except:
+    winter_1929_1930_22 = None
+WL_12.append(winter_1929_1930_22)
+station22.append(winter_1929_1930_22)
+
+try:
+    winter_1929_1930_23 = y1[23] + bm[23]
+except:
+    winter_1929_1930_23 = None
+WL_12.append(winter_1929_1930_23)
+station23.append(winter_1929_1930_23)
+
+#last spring freeze values for #1931
+
+bn = []
+
+for rowOfCellObjects in mosheet['EE2':'EE25']:
+    for cellObj in rowOfCellObjects:
+        bn.append(cellObj.value)
+
+#final winter length calculation for 1930-1931 season for all of 24 Missouri stations
+
+WL_13 = [] #all 1930-1931 winter lengths
+
+try:
+    winter_1930_1931_0 = z1[0] + bn[0]
+except:
+    winter_1930_1931_0 = None
+WL_13.append(winter_1930_1931_0)
+station0.append(winter_1930_1931_0)
+
+try:
+    winter_1930_1931_1 = z1[1] + bn[1]
+except:
+    winter_1930_1931_1 = None
+WL_13.append(winter_1930_1931_1)
+station1.append(winter_1930_1931_1)
+
+try:
+    winter_1930_1931_2 = z1[2] + bn[2]
+except:
+    winter_1930_1931_2 = None
+WL_13.append(winter_1930_1931_2)
+station2.append(winter_1930_1931_2)
+
+try:
+    winter_1930_1931_3 = z1[3] + bn[3]
+except:
+    winter_1930_1931_3 = None
+WL_13.append(winter_1930_1931_3)
+station3.append(winter_1930_1931_3)
+
+try:
+    winter_1930_1931_4 = z1[4] + bn[4]
+except:
+    winter_1930_1931_4 = None
+WL_13.append(winter_1930_1931_4)
+station4.append(winter_1930_1931_4)
+
+try:
+    winter_1930_1931_5 = z1[5] + bn[5]
+except:
+    winter_1930_1931_5 = None
+WL_13.append(winter_1930_1931_5)
+station5.append(winter_1930_1931_5)
+
+try:
+    winter_1930_1931_6 = z1[6] + bn[6]
+except:
+    winter_1930_1931_6 = None
+WL_13.append(winter_1930_1931_6)
+station6.append(winter_1930_1931_6)
+
+try:
+    winter_1930_1931_7 = z1[7] + bn[7]
+except:
+    winter_1930_1931_7 = None
+WL_13.append(winter_1930_1931_7)
+station7.append(winter_1930_1931_7)
+
+try:
+    winter_1930_1931_8 = z1[8] + bn[8]
+except:
+    winter_1930_1931_8 = None
+WL_13.append(winter_1930_1931_8)
+station8.append(winter_1930_1931_8)
+
+try:
+    winter_1930_1931_9 = z1[9] + bn[9]
+except:
+    winter_1930_1931_9 = None
+WL_13.append(winter_1930_1931_9)
+station9.append(winter_1930_1931_9)
+
+try:
+    winter_1930_1931_10 = z1[10] + bn[10]
+except:
+    winter_1930_1931_10 = None
+WL_13.append(winter_1930_1931_10)
+station10.append(winter_1930_1931_10)
+
+try:
+    winter_1930_1931_11 = z1[11] + bn[11]
+except:
+    winter_1930_1931_11 = None
+WL_13.append(winter_1930_1931_11)
+station11.append(winter_1930_1931_11)
+
+try:
+    winter_1930_1931_12 = z1[12] + bn[12]
+except:
+    winter_1930_1931_12 = None
+WL_13.append(winter_1930_1931_12)
+station12.append(winter_1930_1931_12)
+
+try:
+    winter_1930_1931_13 = z1[13] + bn[13]
+except:
+    winter_1930_1931_13 = None
+WL_13.append(winter_1930_1931_13)
+station13.append(winter_1930_1931_13)
+
+try:
+    winter_1930_1931_14 = z1[14] + bn[14]
+except:
+    winter_1930_1931_14 = None
+WL_13.append(winter_1930_1931_14)
+station14.append(winter_1930_1931_14)
+
+try:
+    winter_1930_1931_15 = z1[15] + bn[15]
+except:
+    winter_1930_1931_15 = None
+WL_13.append(winter_1930_1931_15)
+station15.append(winter_1930_1931_15)
+
+try:
+    winter_1930_1931_16 = z1[16] + bn[16]
+except:
+    winter_1930_1931_16 = None
+WL_13.append(winter_1930_1931_16)
+station16.append(winter_1930_1931_16)
+
+try:
+    winter_1930_1931_17 = z1[17] + bn[17]
+except:
+    winter_1930_1931_17 = None
+WL_13.append(winter_1930_1931_17)
+station17.append(winter_1930_1931_17)
+
+try:
+    winter_1930_1931_18 = z1[18] + bn[18]
+except:
+    winter_1930_1931_18 = None
+WL_13.append(winter_1930_1931_18)
+station18.append(winter_1930_1931_18)
+
+try:
+    winter_1930_1931_19 = z1[19] + bn[19]
+except:
+    winter_1930_1931_19 = None
+WL_13.append(winter_1930_1931_19)
+station19.append(winter_1930_1931_19)
+
+try:
+    winter_1930_1931_20 = z1[20] + bn[20]
+except:
+    winter_1930_1931_20 = None
+WL_13.append(winter_1930_1931_20)
+station20.append(winter_1930_1931_20)
+
+try:
+    winter_1930_1931_21 = z1[21] + bn[21]
+except:
+    winter_1930_1931_21 = None
+WL_13.append(winter_1930_1931_21)
+station21.append(winter_1930_1931_21)
+
+try:
+    winter_1930_1931_22 = z1[22] + bn[22]
+except:
+    winter_1930_1931_22 = None
+WL_13.append(winter_1930_1931_22)
+station22.append(winter_1930_1931_22)
+
+try:
+    winter_1930_1931_23 = z1[23] + bn[23]
+except:
+    winter_1930_1931_23 = None
+WL_13.append(winter_1930_1931_23)
+station23.append(winter_1930_1931_23)
+
+#last spring freeze values for #1932
+
+bo = []
+
+for rowOfCellObjects in mosheet['EF2':'EF25']:
+    for cellObj in rowOfCellObjects:
+        bo.append(cellObj.value)
+
+#final winter length calculation for 1931-1932 season for all of 24 Missouri stations
+
+WL_14 = [] #all 1931-1932 winter lengths
+
+try:
+    winter_1931_1932_0 = a1[0] + bo[0]
+except:
+    winter_1931_1932_0 = None
+WL_14.append(winter_1931_1932_0)
+station0.append(winter_1931_1932_0)
+
+try:
+    winter_1931_1932_1 = a1[1] + bo[1]
+except:
+    winter_1931_1932_1 = None
+WL_14.append(winter_1931_1932_1)
+station1.append(winter_1931_1932_1)
+
+try:
+    winter_1931_1932_2 = a1[2] + bo[2]
+except:
+    winter_1931_1932_2 = None
+WL_14.append(winter_1931_1932_2)
+station2.append(winter_1931_1932_2)
+
+try:
+    winter_1931_1932_3 = a1[3] + bo[3]
+except:
+    winter_1931_1932_3 = None
+WL_14.append(winter_1931_1932_3)
+station3.append(winter_1931_1932_3)
+
+try:
+    winter_1931_1932_4 = a1[4] + bo[4]
+except:
+    winter_1931_1932_4 = None
+WL_14.append(winter_1931_1932_4)
+station4.append(winter_1931_1932_4)
+
+try:
+    winter_1931_1932_5 = a1[5] + bo[5]
+except:
+    winter_1931_1932_5 = None
+WL_14.append(winter_1931_1932_5)
+station5.append(winter_1931_1932_5)
+
+try:
+    winter_1931_1932_6 = a1[6] + bo[6]
+except:
+    winter_1931_1932_6 = None
+WL_14.append(winter_1931_1932_6)
+station6.append(winter_1931_1932_6)
+
+try:
+    winter_1931_1932_7 = a1[7] + bo[7]
+except:
+    winter_1931_1932_7 = None
+WL_14.append(winter_1931_1932_7)
+station7.append(winter_1931_1932_7)
+
+try:
+    winter_1931_1932_8 = a1[8] + bo[8]
+except:
+    winter_1931_1932_8 = None
+WL_14.append(winter_1931_1932_8)
+station8.append(winter_1931_1932_8)
+
+try:
+    winter_1931_1932_9 = a1[9] + bo[9]
+except:
+    winter_1931_1932_9 = None
+WL_14.append(winter_1931_1932_9)
+station9.append(winter_1931_1932_9)
+
+try:
+    winter_1931_1932_10 = a1[10] + bo[10]
+except:
+    winter_1931_1932_10 = None
+WL_14.append(winter_1931_1932_10)
+station10.append(winter_1931_1932_10)
+
+try:
+    winter_1931_1932_11 = a1[11] + bo[11]
+except:
+    winter_1931_1932_11 = None
+WL_14.append(winter_1931_1932_11)
+station11.append(winter_1931_1932_11)
+
+try:
+    winter_1931_1932_12 = a1[12] + bo[12]
+except:
+    winter_1931_1932_12 = None
+WL_14.append(winter_1931_1932_12)
+station12.append(winter_1931_1932_12)
+
+try:
+    winter_1931_1932_13 = a1[13] + bo[13]
+except:
+    winter_1931_1932_13 = None
+WL_14.append(winter_1931_1932_13)
+station13.append(winter_1931_1932_13)
+
+try:
+    winter_1931_1932_14 = a1[14] + bo[14]
+except:
+    winter_1931_1932_14 = None
+WL_14.append(winter_1931_1932_14)
+station14.append(winter_1931_1932_14)
+
+try:
+    winter_1931_1932_15 = a1[15] + bo[15]
+except:
+    winter_1931_1932_15 = None
+WL_14.append(winter_1931_1932_15)
+station15.append(winter_1931_1932_15)
+
+try:
+    winter_1931_1932_16 = a1[16] + bo[16]
+except:
+    winter_1931_1932_16 = None
+WL_14.append(winter_1931_1932_16)
+station16.append(winter_1931_1932_16)
+
+try:
+    winter_1931_1932_17 = a1[17] + bo[17]
+except:
+    winter_1931_1932_17 = None
+WL_14.append(winter_1931_1932_17)
+station17.append(winter_1931_1932_17)
+
+try:
+    winter_1931_1932_18 = a1[18] + bo[18]
+except:
+    winter_1931_1932_18 = None
+WL_14.append(winter_1931_1932_18)
+station18.append(winter_1931_1932_18)
+
+try:
+    winter_1931_1932_19 = a1[19] + bo[19]
+except:
+    winter_1931_1932_19 = None
+WL_14.append(winter_1931_1932_19)
+station19.append(winter_1931_1932_19)
+
+try:
+    winter_1931_1932_20 = a1[20] + bo[20]
+except:
+    winter_1931_1932_20 = None
+WL_14.append(winter_1931_1932_20)
+station20.append(winter_1931_1932_20)
+
+try:
+    winter_1931_1932_21 = a1[21] + bo[21]
+except:
+    winter_1931_1932_21 = None
+WL_14.append(winter_1931_1932_21)
+station21.append(winter_1931_1932_21)
+
+try:
+    winter_1931_1932_22 = a1[22] + bo[22]
+except:
+    winter_1931_1932_22 = None
+WL_14.append(winter_1931_1932_22)
+station22.append(winter_1931_1932_22)
+
+try:
+    winter_1931_1932_23 = a1[23] + bo[23]
+except:
+    winter_1931_1932_23 = None
+WL_14.append(winter_1931_1932_23)
+station23.append(winter_1931_1932_23)
+
+#last spring freeze values for #1933
+
+bp = []
+
+for rowOfCellObjects in mosheet['EG2':'EG25']:
+    for cellObj in rowOfCellObjects:
+        bp.append(cellObj.value)
+
+#final winter length calculation for 1932-1933 season for all of 24 Missouri stations
+
+WL_15 = [] #all 1932-1933 winter lengths
+
+try:
+    winter_1932_1933_0 = b1[0] + bp[0]
+except:
+    winter_1932_1933_0 = None
+WL_15.append(winter_1932_1933_0)
+station0.append(winter_1932_1933_0)
+
+try:
+    winter_1932_1933_1 = b1[1] + bp[1]
+except:
+    winter_1932_1933_1 = None
+WL_15.append(winter_1932_1933_1)
+station1.append(winter_1932_1933_1)
+
+try:
+    winter_1932_1933_2 = b1[2] + bp[2]
+except:
+    winter_1932_1933_2 = None
+WL_15.append(winter_1932_1933_2)
+station2.append(winter_1932_1933_2)
+
+try:
+    winter_1932_1933_3 = b1[3] + bp[3]
+except:
+    winter_1932_1933_3 = None
+WL_15.append(winter_1932_1933_3)
+station3.append(winter_1932_1933_3)
+
+try:
+    winter_1932_1933_4 = b1[4] + bp[4]
+except:
+    winter_1932_1933_4 = None
+WL_15.append(winter_1932_1933_4)
+station4.append(winter_1932_1933_4)
+
+try:
+    winter_1932_1933_5 = b1[5] + bp[5]
+except:
+    winter_1932_1933_5 = None
+WL_15.append(winter_1932_1933_5)
+station5.append(winter_1932_1933_5)
+
+try:
+    winter_1932_1933_6 = b1[6] + bp[6]
+except:
+    winter_1932_1933_6 = None
+WL_15.append(winter_1932_1933_6)
+station6.append(winter_1932_1933_6)
+
+try:
+    winter_1932_1933_7 = b1[7] + bp[7]
+except:
+    winter_1932_1933_7 = None
+WL_15.append(winter_1932_1933_7)
+station7.append(winter_1932_1933_7)
+
+try:
+    winter_1932_1933_8 = b1[8] + bp[8]
+except:
+    winter_1932_1933_8 = None
+WL_15.append(winter_1932_1933_8)
+station8.append(winter_1932_1933_8)
+
+try:
+    winter_1932_1933_9 = b1[9] + bp[9]
+except:
+    winter_1932_1933_9 = None
+WL_15.append(winter_1932_1933_9)
+station9.append(winter_1932_1933_9)
+
+try:
+    winter_1932_1933_10 = b1[10] + bp[10]
+except:
+    winter_1932_1933_10 = None
+WL_15.append(winter_1932_1933_10)
+station10.append(winter_1932_1933_10)
+
+try:
+    winter_1932_1933_11 = b1[11] + bp[11]
+except:
+    winter_1932_1933_11 = None
+WL_15.append(winter_1932_1933_11)
+station11.append(winter_1932_1933_11)
+
+try:
+    winter_1932_1933_12 = b1[12] + bp[12]
+except:
+    winter_1932_1933_12 = None
+WL_15.append(winter_1932_1933_12)
+station12.append(winter_1932_1933_12)
+
+try:
+    winter_1932_1933_13 = b1[13] + bp[13]
+except:
+    winter_1932_1933_13 = None
+WL_15.append(winter_1932_1933_13)
+station13.append(winter_1932_1933_13)
+
+try:
+    winter_1932_1933_14 = b1[14] + bp[14]
+except:
+    winter_1932_1933_14 = None
+WL_15.append(winter_1932_1933_14)
+station14.append(winter_1932_1933_14)
+
+try:
+    winter_1932_1933_15 = b1[15] + bp[15]
+except:
+    winter_1932_1933_15 = None
+WL_15.append(winter_1932_1933_15)
+station15.append(winter_1932_1933_15)
+
+try:
+    winter_1932_1933_16 = b1[16] + bp[16]
+except:
+    winter_1932_1933_16 = None
+WL_15.append(winter_1932_1933_16)
+station16.append(winter_1932_1933_16)
+
+try:
+    winter_1932_1933_17 = b1[17] + bp[17]
+except:
+    winter_1932_1933_17 = None
+WL_15.append(winter_1932_1933_17)
+station17.append(winter_1932_1933_17)
+
+try:
+    winter_1932_1933_18 = b1[18] + bp[18]
+except:
+    winter_1932_1933_18 = None
+WL_15.append(winter_1932_1933_18)
+station18.append(winter_1932_1933_18)
+
+try:
+    winter_1932_1933_19 = b1[19] + bp[19]
+except:
+    winter_1932_1933_19 = None
+WL_15.append(winter_1932_1933_19)
+station19.append(winter_1932_1933_19)
+
+try:
+    winter_1932_1933_20 = b1[20] + bp[20]
+except:
+    winter_1932_1933_20 = None
+WL_15.append(winter_1932_1933_20)
+station20.append(winter_1932_1933_20)
+
+try:
+    winter_1932_1933_21 = b1[21] + bp[21]
+except:
+    winter_1932_1933_21 = None
+WL_15.append(winter_1932_1933_21)
+station21.append(winter_1932_1933_21)
+
+try:
+    winter_1932_1933_22 = b1[22] + bp[22]
+except:
+    winter_1932_1933_22 = None
+WL_15.append(winter_1932_1933_22)
+station22.append(winter_1932_1933_22)
+
+try:
+    winter_1932_1933_23 = b1[23] + bp[23]
+except:
+    winter_1932_1933_23 = None
+WL_15.append(winter_1932_1933_23)
+station23.append(winter_1932_1933_23)
+
+#last spring freeze values for #1934
+
+bq = []
+
+for rowOfCellObjects in mosheet['EH2':'EH25']:
+    for cellObj in rowOfCellObjects:
+        bq.append(cellObj.value)
+
+#final winter length calculation for 1933-1934 season for all of 24 Missouri stations
+
+WL_16 = [] #all 1933-1934 winter lengths
+
+try:
+    winter_1933_1934_0 = c1[0] + bq[0]
+except:
+    winter_1933_1934_0 = None
+WL_16.append(winter_1933_1934_0)
+station0.append(winter_1933_1934_0)
+
+try:
+    winter_1933_1934_1 = c1[1] + bq[1]
+except:
+    winter_1933_1934_1 = None
+WL_16.append(winter_1933_1934_1)
+station1.append(winter_1933_1934_1)
+
+try:
+    winter_1933_1934_2 = c1[2] + bq[2]
+except:
+    winter_1933_1934_2 = None
+WL_16.append(winter_1933_1934_2)
+station2.append(winter_1933_1934_2)
+
+try:
+    winter_1933_1934_3 = c1[3] + bq[3]
+except:
+    winter_1933_1934_3 = None
+WL_16.append(winter_1933_1934_3)
+station3.append(winter_1933_1934_3)
+
+try:
+    winter_1933_1934_4 = c1[4] + bq[4]
+except:
+    winter_1933_1934_4 = None
+WL_16.append(winter_1933_1934_4)
+station4.append(winter_1933_1934_4)
+
+try:
+    winter_1933_1934_5 = c1[5] + bq[5]
+except:
+    winter_1933_1934_5 = None
+WL_16.append(winter_1933_1934_5)
+station5.append(winter_1933_1934_5)
+
+try:
+    winter_1933_1934_6 = c1[6] + bq[6]
+except:
+    winter_1933_1934_6 = None
+WL_16.append(winter_1933_1934_6)
+station6.append(winter_1933_1934_6)
+
+try:
+    winter_1933_1934_7 = c1[7] + bq[7]
+except:
+    winter_1933_1934_7 = None
+WL_16.append(winter_1933_1934_7)
+station7.append(winter_1933_1934_7)
+
+try:
+    winter_1933_1934_8 = c1[8] + bq[8]
+except:
+    winter_1933_1934_8 = None
+WL_16.append(winter_1933_1934_8)
+station8.append(winter_1933_1934_8)
+
+try:
+    winter_1933_1934_9 = c1[9] + bq[9]
+except:
+    winter_1933_1934_9 = None
+WL_16.append(winter_1933_1934_9)
+station9.append(winter_1933_1934_9)
+
+try:
+    winter_1933_1934_10 = c1[10] + bq[10]
+except:
+    winter_1933_1934_10 = None
+WL_16.append(winter_1933_1934_10)
+station10.append(winter_1933_1934_10)
+
+try:
+    winter_1933_1934_11 = c1[11] + bq[11]
+except:
+    winter_1933_1934_11 = None
+WL_16.append(winter_1933_1934_11)
+station11.append(winter_1933_1934_11)
+
+try:
+    winter_1933_1934_12 = c1[12] + bq[12]
+except:
+    winter_1933_1934_12 = None
+WL_16.append(winter_1933_1934_12)
+station12.append(winter_1933_1934_12)
+
+try:
+    winter_1933_1934_13 = c1[13] + bq[13]
+except:
+    winter_1933_1934_13 = None
+WL_16.append(winter_1933_1934_13)
+station13.append(winter_1933_1934_13)
+
+try:
+    winter_1933_1934_14 = c1[14] + bq[14]
+except:
+    winter_1933_1934_14 = None
+WL_16.append(winter_1933_1934_14)
+station14.append(winter_1933_1934_14)
+
+try:
+    winter_1933_1934_15 = c1[15] + bq[15]
+except:
+    winter_1933_1934_15 = None
+WL_16.append(winter_1933_1934_15)
+station15.append(winter_1933_1934_15)
+
+try:
+    winter_1933_1934_16 = c1[16] + bq[16]
+except:
+    winter_1933_1934_16 = None
+WL_16.append(winter_1933_1934_16)
+station16.append(winter_1933_1934_16)
+
+try:
+    winter_1933_1934_17 = c1[17] + bq[17]
+except:
+    winter_1933_1934_17 = None
+WL_16.append(winter_1933_1934_17)
+station17.append(winter_1933_1934_17)
+
+try:
+    winter_1933_1934_18 = c1[18] + bq[18]
+except:
+    winter_1933_1934_18 = None
+WL_16.append(winter_1933_1934_18)
+station18.append(winter_1933_1934_18)
+
+try:
+    winter_1933_1934_19 = c1[19] + bq[19]
+except:
+    winter_1933_1934_19 = None
+WL_16.append(winter_1933_1934_19)
+station19.append(winter_1933_1934_19)
+
+try:
+    winter_1933_1934_20 = c1[20] + bq[20]
+except:
+    winter_1933_1934_20 = None
+WL_16.append(winter_1933_1934_20)
+station20.append(winter_1933_1934_20)
+
+try:
+    winter_1933_1934_21 = c1[21] + bq[21]
+except:
+    winter_1933_1934_21 = None
+WL_16.append(winter_1933_1934_21)
+station21.append(winter_1933_1934_21)
+
+try:
+    winter_1933_1934_22 = c1[22] + bq[22]
+except:
+    winter_1933_1934_22 = None
+WL_16.append(winter_1933_1934_22)
+station22.append(winter_1933_1934_22)
+
+try:
+    winter_1933_1934_23 = c1[23] + bq[23]
+except:
+    winter_1933_1934_23 = None
+WL_16.append(winter_1933_1934_23)
+station23.append(winter_1933_1934_23)
+
+#last spring freeze values for #1935
+
+br = []
+
+for rowOfCellObjects in mosheet['EI2':'EI25']:
+    for cellObj in rowOfCellObjects:
+        br.append(cellObj.value)
+
+#final winter length calculation for 1934-1935 season for all of 24 Missouri stations
+
+WL_17 = [] #all 1934-1935 winter lengths
+
+try:
+    winter_1934_1935_0 = d1[0] + br[0]
+except:
+    winter_1934_1935_0 = None
+WL_17.append(winter_1934_1935_0)
+station0.append(winter_1934_1935_0)
+
+try:
+    winter_1934_1935_1 = d1[1] + br[1]
+except:
+    winter_1934_1935_1 = None
+WL_17.append(winter_1934_1935_1)
+station1.append(winter_1934_1935_1)
+
+try:
+    winter_1934_1935_2 = d1[2] + br[2]
+except:
+    winter_1934_1935_2 = None
+WL_17.append(winter_1934_1935_2)
+station2.append(winter_1934_1935_2)
+
+try:
+    winter_1934_1935_3 = d1[3] + br[3]
+except:
+    winter_1934_1935_3 = None
+WL_17.append(winter_1934_1935_3)
+station3.append(winter_1934_1935_3)
+
+try:
+    winter_1934_1935_4 = d1[4] + br[4]
+except:
+    winter_1934_1935_4 = None
+WL_17.append(winter_1934_1935_4)
+station4.append(winter_1934_1935_4)
+
+try:
+    winter_1934_1935_5 = d1[5] + br[5]
+except:
+    winter_1934_1935_5 = None
+WL_17.append(winter_1934_1935_5)
+station5.append(winter_1934_1935_5)
+
+try:
+    winter_1934_1935_6 = d1[6] + br[6]
+except:
+    winter_1934_1935_6 = None
+WL_17.append(winter_1934_1935_6)
+station6.append(winter_1934_1935_6)
+
+try:
+    winter_1934_1935_7 = d1[7] + br[7]
+except:
+    winter_1934_1935_7 = None
+WL_17.append(winter_1934_1935_7)
+station7.append(winter_1934_1935_7)
+
+try:
+    winter_1934_1935_8 = d1[8] + br[8]
+except:
+    winter_1934_1935_8 = None
+WL_17.append(winter_1934_1935_8)
+station8.append(winter_1934_1935_8)
+
+try:
+    winter_1934_1935_9 = d1[9] + br[9]
+except:
+    winter_1934_1935_9 = None
+WL_17.append(winter_1934_1935_9)
+station9.append(winter_1934_1935_9)
+
+try:
+    winter_1934_1935_10 = d1[10] + br[10]
+except:
+    winter_1934_1935_10 = None
+WL_17.append(winter_1934_1935_10)
+station10.append(winter_1934_1935_10)
+
+try:
+    winter_1934_1935_11 = d1[11] + br[11]
+except:
+    winter_1934_1935_11 = None
+WL_17.append(winter_1934_1935_11)
+station11.append(winter_1934_1935_11)
+
+try:
+    winter_1934_1935_12 = d1[12] + br[12]
+except:
+    winter_1934_1935_12 = None
+WL_17.append(winter_1934_1935_12)
+station12.append(winter_1934_1935_12)
+
+try:
+    winter_1934_1935_13 = d1[13] + br[13]
+except:
+    winter_1934_1935_13 = None
+WL_17.append(winter_1934_1935_13)
+station13.append(winter_1934_1935_13)
+
+try:
+    winter_1934_1935_14 = d1[14] + br[14]
+except:
+    winter_1934_1935_14 = None
+WL_17.append(winter_1934_1935_14)
+station14.append(winter_1934_1935_14)
+
+try:
+    winter_1934_1935_15 = d1[15] + br[15]
+except:
+    winter_1934_1935_15 = None
+WL_17.append(winter_1934_1935_15)
+station15.append(winter_1934_1935_15)
+
+try:
+    winter_1934_1935_16 = d1[16] + br[16]
+except:
+    winter_1934_1935_16 = None
+WL_17.append(winter_1934_1935_16)
+station16.append(winter_1934_1935_16)
+
+try:
+    winter_1934_1935_17 = d1[17] + br[17]
+except:
+    winter_1934_1935_17 = None
+WL_17.append(winter_1934_1935_17)
+station17.append(winter_1934_1935_17)
+
+try:
+    winter_1934_1935_18 = d1[18] + br[18]
+except:
+    winter_1934_1935_18 = None
+WL_17.append(winter_1934_1935_18)
+station18.append(winter_1934_1935_18)
+
+try:
+    winter_1934_1935_19 = d1[19] + br[19]
+except:
+    winter_1934_1935_19 = None
+WL_17.append(winter_1934_1935_19)
+station19.append(winter_1934_1935_19)
+
+try:
+    winter_1934_1935_20 = d1[20] + br[20]
+except:
+    winter_1934_1935_20 = None
+WL_17.append(winter_1934_1935_20)
+station20.append(winter_1934_1935_20)
+
+try:
+    winter_1934_1935_21 = d1[21] + br[21]
+except:
+    winter_1934_1935_21 = None
+WL_17.append(winter_1934_1935_21)
+station21.append(winter_1934_1935_21)
+
+try:
+    winter_1934_1935_22 = d1[22] + br[22]
+except:
+    winter_1934_1935_22 = None
+WL_17.append(winter_1934_1935_22)
+station22.append(winter_1934_1935_22)
+
+try:
+    winter_1934_1935_23 = d1[23] + br[23]
+except:
+    winter_1934_1935_23 = None
+WL_17.append(winter_1934_1935_23)
+station23.append(winter_1934_1935_23)
+
+#last spring freeze values for #1936
+
+bs = []
+
+for rowOfCellObjects in mosheet['EJ2':'EJ25']:
+    for cellObj in rowOfCellObjects:
+        bs.append(cellObj.value)
+
+#final winter length calculation for 1935-1936 season for all of 24 Missouri stations
+
+WL_18 = [] #all 1935-1936 winter lengths
+
+try:
+    winter_1935_1936_0 = e1[0] + bs[0]
+except:
+    winter_1935_1936_0 = None
+WL_18.append(winter_1935_1936_0)
+station0.append(winter_1935_1936_0)
+
+try:
+    winter_1935_1936_1 = e1[1] + bs[1]
+except:
+    winter_1935_1936_1 = None
+WL_18.append(winter_1935_1936_1)
+station1.append(winter_1935_1936_1)
+
+try:
+    winter_1935_1936_2 = e1[2] + bs[2]
+except:
+    winter_1935_1936_2 = None
+WL_18.append(winter_1935_1936_2)
+station2.append(winter_1935_1936_2)
+
+try:
+    winter_1935_1936_3 = e1[3] + bs[3]
+except:
+    winter_1935_1936_3 = None
+WL_18.append(winter_1935_1936_3)
+station3.append(winter_1935_1936_3)
+
+try:
+    winter_1935_1936_4 = e1[4] + bs[4]
+except:
+    winter_1935_1936_4 = None
+WL_18.append(winter_1935_1936_4)
+station4.append(winter_1935_1936_4)
+
+try:
+    winter_1935_1936_5 = e1[5] + bs[5]
+except:
+    winter_1935_1936_5 = None
+WL_18.append(winter_1935_1936_5)
+station5.append(winter_1935_1936_5)
+
+try:
+    winter_1935_1936_6 = e1[6] + bs[6]
+except:
+    winter_1935_1936_6 = None
+WL_18.append(winter_1935_1936_6)
+station6.append(winter_1935_1936_6)
+
+try:
+    winter_1935_1936_7 = e1[7] + bs[7]
+except:
+    winter_1935_1936_7 = None
+WL_18.append(winter_1935_1936_7)
+station7.append(winter_1935_1936_7)
+
+try:
+    winter_1935_1936_8 = e1[8] + bs[8]
+except:
+    winter_1935_1936_8 = None
+WL_18.append(winter_1935_1936_8)
+station8.append(winter_1935_1936_8)
+
+try:
+    winter_1935_1936_9 = e1[9] + bs[9]
+except:
+    winter_1935_1936_9 = None
+WL_18.append(winter_1935_1936_9)
+station9.append(winter_1935_1936_9)
+
+try:
+    winter_1935_1936_10 = e1[10] + bs[10]
+except:
+    winter_1935_1936_10 = None
+WL_18.append(winter_1935_1936_10)
+station10.append(winter_1935_1936_10)
+
+try:
+    winter_1935_1936_11 = e1[11] + bs[11]
+except:
+    winter_1935_1936_11 = None
+WL_18.append(winter_1935_1936_11)
+station11.append(winter_1935_1936_11)
+
+try:
+    winter_1935_1936_12 = e1[12] + bs[12]
+except:
+    winter_1935_1936_12 = None
+WL_18.append(winter_1935_1936_12)
+station12.append(winter_1935_1936_12)
+
+try:
+    winter_1935_1936_13 = e1[13] + bs[13]
+except:
+    winter_1935_1936_13 = None
+WL_18.append(winter_1935_1936_13)
+station13.append(winter_1935_1936_13)
+
+try:
+    winter_1935_1936_14 = e1[14] + bs[14]
+except:
+    winter_1935_1936_14 = None
+WL_18.append(winter_1935_1936_14)
+station14.append(winter_1935_1936_14)
+
+try:
+    winter_1935_1936_15 = e1[15] + bs[15]
+except:
+    winter_1935_1936_15 = None
+WL_18.append(winter_1935_1936_15)
+station15.append(winter_1935_1936_15)
+
+try:
+    winter_1935_1936_16 = e1[16] + bs[16]
+except:
+    winter_1935_1936_16 = None
+WL_18.append(winter_1935_1936_16)
+station16.append(winter_1935_1936_16)
+
+try:
+    winter_1935_1936_17 = e1[17] + bs[17]
+except:
+    winter_1935_1936_17 = None
+WL_18.append(winter_1935_1936_17)
+station17.append(winter_1935_1936_17)
+
+try:
+    winter_1935_1936_18 = e1[18] + bs[18]
+except:
+    winter_1935_1936_18 = None
+WL_18.append(winter_1935_1936_18)
+station18.append(winter_1935_1936_18)
+
+try:
+    winter_1935_1936_19 = e1[19] + bs[19]
+except:
+    winter_1935_1936_19 = None
+WL_18.append(winter_1935_1936_19)
+station19.append(winter_1935_1936_19)
+
+try:
+    winter_1935_1936_20 = e1[20] + bs[20]
+except:
+    winter_1935_1936_20 = None
+WL_18.append(winter_1935_1936_20)
+station20.append(winter_1935_1936_20)
+
+try:
+    winter_1935_1936_21 = e1[21] + bs[21]
+except:
+    winter_1935_1936_21 = None
+WL_18.append(winter_1935_1936_21)
+station21.append(winter_1935_1936_21)
+
+try:
+    winter_1935_1936_22 = e1[22] + bs[22]
+except:
+    winter_1935_1936_22 = None
+WL_18.append(winter_1935_1936_22)
+station22.append(winter_1935_1936_22)
+
+try:
+    winter_1935_1936_23 = e1[23] + bs[23]
+except:
+    winter_1935_1936_23 = None
+WL_18.append(winter_1935_1936_23)
+station23.append(winter_1935_1936_23)
+
+#last spring freeze values for #1937
+
+bt = []
+
+for rowOfCellObjects in mosheet['EK2':'EK25']:
+    for cellObj in rowOfCellObjects:
+        bt.append(cellObj.value)
+
+#final winter length calculation for 1936-1937 season for all of 24 Missouri stations
+
+WL_19 = [] #all 1936-1937 winter lengths
+
+try:
+    winter_1936_1937_0 = f1[0] + bt[0]
+except:
+    winter_1936_1937_0 = None
+WL_19.append(winter_1936_1937_0)
+station0.append(winter_1936_1937_0)
+
+try:
+    winter_1936_1937_1 = f1[1] + bt[1]
+except:
+    winter_1936_1937_1 = None
+WL_19.append(winter_1936_1937_1)
+station1.append(winter_1936_1937_1)
+
+try:
+    winter_1936_1937_2 = f1[2] + bt[2]
+except:
+    winter_1936_1937_2 = None
+WL_19.append(winter_1936_1937_2)
+station2.append(winter_1936_1937_2)
+
+try:
+    winter_1936_1937_3 = f1[3] + bt[3]
+except:
+    winter_1936_1937_3 = None
+WL_19.append(winter_1936_1937_3)
+station3.append(winter_1936_1937_3)
+
+try:
+    winter_1936_1937_4 = f1[4] + bt[4]
+except:
+    winter_1936_1937_4 = None
+WL_19.append(winter_1936_1937_4)
+station4.append(winter_1936_1937_4)
+
+try:
+    winter_1936_1937_5 = f1[5] + bt[5]
+except:
+    winter_1936_1937_5 = None
+WL_19.append(winter_1936_1937_5)
+station5.append(winter_1936_1937_5)
+
+try:
+    winter_1936_1937_6 = f1[6] + bt[6]
+except:
+    winter_1936_1937_6 = None
+WL_19.append(winter_1936_1937_6)
+station6.append(winter_1936_1937_6)
+
+try:
+    winter_1936_1937_7 = f1[7] + bt[7]
+except:
+    winter_1936_1937_7 = None
+WL_19.append(winter_1936_1937_7)
+station7.append(winter_1936_1937_7)
+
+try:
+    winter_1936_1937_8 = f1[8] + bt[8]
+except:
+    winter_1936_1937_8 = None
+WL_19.append(winter_1936_1937_8)
+station8.append(winter_1936_1937_8)
+
+try:
+    winter_1936_1937_9 = f1[9] + bt[9]
+except:
+    winter_1936_1937_9 = None
+WL_19.append(winter_1936_1937_9)
+station9.append(winter_1936_1937_9)
+
+try:
+    winter_1936_1937_10 = f1[10] + bt[10]
+except:
+    winter_1936_1937_10 = None
+WL_19.append(winter_1936_1937_10)
+station10.append(winter_1936_1937_10)
+
+try:
+    winter_1936_1937_11 = f1[11] + bt[11]
+except:
+    winter_1936_1937_11 = None
+WL_19.append(winter_1936_1937_11)
+station11.append(winter_1936_1937_11)
+
+try:
+    winter_1936_1937_12 = f1[12] + bt[12]
+except:
+    winter_1936_1937_12 = None
+WL_19.append(winter_1936_1937_12)
+station12.append(winter_1936_1937_12)
+
+try:
+    winter_1936_1937_13 = f1[13] + bt[13]
+except:
+    winter_1936_1937_13 = None
+WL_19.append(winter_1936_1937_13)
+station13.append(winter_1936_1937_13)
+
+try:
+    winter_1936_1937_14 = f1[14] + bt[14]
+except:
+    winter_1936_1937_14 = None
+WL_19.append(winter_1936_1937_14)
+station14.append(winter_1936_1937_14)
+
+try:
+    winter_1936_1937_15 = f1[15] + bt[15]
+except:
+    winter_1936_1937_15 = None
+WL_19.append(winter_1936_1937_15)
+station15.append(winter_1936_1937_15)
+
+try:
+    winter_1936_1937_16 = f1[16] + bt[16]
+except:
+    winter_1936_1937_16 = None
+WL_19.append(winter_1936_1937_16)
+station16.append(winter_1936_1937_16)
+
+try:
+    winter_1936_1937_17 = f1[17] + bt[17]
+except:
+    winter_1936_1937_17 = None
+WL_19.append(winter_1936_1937_17)
+station17.append(winter_1936_1937_17)
+
+try:
+    winter_1936_1937_18 = f1[18] + bt[18]
+except:
+    winter_1936_1937_18 = None
+WL_19.append(winter_1936_1937_18)
+station18.append(winter_1936_1937_18)
+
+try:
+    winter_1936_1937_19 = f1[19] + bt[19]
+except:
+    winter_1936_1937_19 = None
+WL_19.append(winter_1936_1937_19)
+station19.append(winter_1936_1937_19)
+
+try:
+    winter_1936_1937_20 = f1[20] + bt[20]
+except:
+    winter_1936_1937_20 = None
+WL_19.append(winter_1936_1937_20)
+station20.append(winter_1936_1937_20)
+
+try:
+    winter_1936_1937_21 = f1[21] + bt[21]
+except:
+    winter_1936_1937_21 = None
+WL_19.append(winter_1936_1937_21)
+station21.append(winter_1936_1937_21)
+
+try:
+    winter_1936_1937_22 = f1[22] + bt[22]
+except:
+    winter_1936_1937_22 = None
+WL_19.append(winter_1936_1937_22)
+station22.append(winter_1936_1937_22)
+
+try:
+    winter_1936_1937_23 = f1[23] + bt[23]
+except:
+    winter_1936_1937_23 = None
+WL_19.append(winter_1936_1937_23)
+station23.append(winter_1936_1937_23)
+
