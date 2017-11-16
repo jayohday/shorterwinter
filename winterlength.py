@@ -330,5 +330,258 @@ for i in f:
         x = None
     f1.append(x)
 
+#1937
+
+g = []
+for rowOfCellObjects in mosheet['AF2':'AF25']:
+    for cellObj in rowOfCellObjects:
+        g.append(cellObj.value)
+
+g1 = []
+
+for i in g:
+    try:
+        x = 365 - (i-1)
+    except:
+        x = None
+    g1.append(x)
+
+#1938
+
+h = []
+for rowOfCellObjects in mosheet['AG2':'AG25']:
+    for cellObj in rowOfCellObjects:
+        h.append(cellObj.value)
+
+h1 = []
+
+for i in h:
+    try:
+        x = 365 - (i-1)
+    except:
+        x = None
+    h1.append(x)
+
+#1939
+#skipping using i for lists because used elsewhere
+
+j = []
+for rowOfCellObjects in mosheet['AH2':'AH25']:
+    for cellObj in rowOfCellObjects:
+        j.append(cellObj.value)
+
+j1 = []
+
+for i in j:
+    try:
+        x = 365 - (i-1)
+    except:
+        x = None
+    j1.append(x)
+
+#1940
+
+k = []
+for rowOfCellObjects in mosheet['AI2':'AI25']:
+    for cellObj in rowOfCellObjects:
+        k.append(cellObj.value)
+
+k1 = []
+
+for i in k:
+    try:
+        x = 366 - (i-1)
+    except:
+        x = None
+    k1.append(x)
+
+#1941
+
+aa = []
+for rowOfCellObjects in mosheet['AJ2':'AJ25']:
+    for cellObj in rowOfCellObjects:
+        aa.append(cellObj.value)
+
+aa1 = []
+
+for i in aa:
+    try:
+        x = 365 - (i-1)
+    except:
+        x = None
+    aa1.append(x)
+
+#1942
+
+ab = []
+for rowOfCellObjects in mosheet['AK2':'AK25']:
+    for cellObj in rowOfCellObjects:
+        ab.append(cellObj.value)
+
+ab1 = []
+
+for i in ab:
+    try:
+        x = 365 - (i-1)
+    except:
+        x = None
+    ab1.append(x)
+
+#1943
+
+ac = []
+for rowOfCellObjects in mosheet['AL2':'AL25']:
+    for cellObj in rowOfCellObjects:
+        ac.append(cellObj.value)
+
+ac1 = []
+
+for i in ac:
+    try:
+        x = 365 - (i-1)
+    except:
+        x = None
+    ac1.append(x)
+
+#1944
+
+ad = []
+for rowOfCellObjects in mosheet['AM2':'AM25']:
+    for cellObj in rowOfCellObjects:
+        ad.append(cellObj.value)
+
+ad1 = []
+
+for i in ad:
+    try:
+        x = 366 - (i-1)
+    except:
+        x = None
+    ad1.append(x)
+
+#1945
+
+ae = []
+for rowOfCellObjects in mosheet['AN2':'AN25']:
+    for cellObj in rowOfCellObjects:
+        ae.append(cellObj.value)
+
+ae1 = []
+
+for i in ae:
+    try:
+        x = 365 - (i-1)
+    except:
+        x = None
+    ae1.append(x)
+
+#1946
+
+af = []
+for rowOfCellObjects in mosheet['AO2':'AO25']:
+    for cellObj in rowOfCellObjects:
+        af.append(cellObj.value)
+
+af1 = []
+
+for i in af:
+    try:
+        x = 365 - (i-1)
+    except:
+        x = None
+    af1.append(x)
+
+#1947
+
+ag = []
+for rowOfCellObjects in mosheet['AP2':'AP25']:
+    for cellObj in rowOfCellObjects:
+        ag.append(cellObj.value)
+
+ag1 = []
+
+for i in ag:
+    try:
+        x = 365 - (i-1)
+    except:
+        x = None
+    ag1.append(x)
+
+# all of the above loops calculate the first part of winter for the first 30 years in this dataset. next, we'll calculate the last part of winter for the first 30 years, minus 1917, because winter of 1917 spans 1917-1918. then, we'll do the all of the same for the last 30 years in the dataset.
+
+# pulling out last spring freeze values, then final winter length calculation for that season
+
+#last spring freeze values for #1918
+
+ba = []
+
+for rowOfCellObjects in mosheet['DR2':'DR25']:
+    for cellObj in rowOfCellObjects:
+        ba.append(cellObj.value)
+
+#final winter length calculation for that season for all of 24 Missouri stations
+
+try:
+    winter_1917_1918_0 = l1[0] + ba[0]
+except:
+    winter_1917_1918_0 = None
+
+try:
+    winter_1917_1918_1 = l1[1] + ba[1]
+except:
+    winter_1917_1918_1 = None
+
+try:
+    winter_1917_1918_2 = l1[2] + ba[2]
+except:
+    winter_1917_1918_2 = None
+
+try:
+    winter_1917_1918_3 = l1[3] + ba[3]
+except:
+    winter_1917_1918_3 = None
+
+try:
+    winter_1917_1918_4 = l1[4] + ba[4]
+except:
+    winter_1917_1918_4 = None
+
+try:
+    winter_1917_1918_5 = l1[5] + ba[5]
+except:
+    winter_1917_1918_5 = None
+
+try:
+    winter_1917_1918_6 = l1[6] + ba[6]
+except:
+    winter_1917_1918_6 = None
+
+try:
+    winter_1917_1918_7 = l1[7] + ba[7]
+except:
+    winter_1917_1918_7 = None
+
+try:
+    winter_1917_1918_8 = l1[8] + ba[8]
+except:
+    winter_1917_1918_8 = None
+
+try:
+    winter_1917_1918_9 = l1[9] + ba[9]
+except:
+    winter_1917_1918_9 = None
+
+#last spring freeze values for #1919
+
+bb = []
+
+for rowOfCellObjects in mosheet['DS2':'DS25']:
+    for cellObj in rowOfCellObjects:
+        bb.append(cellObj.value)
+
+#final winter length calculation for that season
+
+
+
 
 
