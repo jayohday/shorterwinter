@@ -13,3 +13,5 @@ The script, written in Python (winterlength.py) uses these numbers to calculate 
 Two sets of lists are created by the end; a list for each station and a list for each season. 
 The script uses csv.writer to create a file with winter lengths for each of the 60 seasons in a row, and each station is a column. 
 As of 11/20, the script does not write headers for the columns or labels for the rows. I intend to write this in. 
+
+I wrote this script to practice doing this sort of task in Python. It could've been done in Excel, but it would have been messy, and I felt there was a lower chance for error by doing it in Python. Ultimately, my goal is to do more of these types of data analysis tasks using Python. 
