@@ -3,10 +3,10 @@ import numpy as np
 import csv
 
 #open and load workbook
-mo = openpyxl.load_workbook('missouri.xlsx')
+IL = openpyxl.load_workbook('Illinois.xlsx')
 
 #open and load sheet
-mosheet = mo.get_sheet_by_name('missouri')
+ILsheet = IL.get_sheet_by_name('Illinois')
 
 #calculating fall part of winter with first fall freeze dates
 
@@ -14,7 +14,7 @@ mosheet = mo.get_sheet_by_name('missouri')
 
 #getting cell values out of each column; each column is a year
 l = []
-for rowOfCellObjects in mosheet['L2':'L25']:
+for rowOfCellObjects in ILsheet['L2':'L25']:
     for cellObj in rowOfCellObjects:
         l.append(cellObj.value)
 
@@ -30,7 +30,7 @@ for i in l:
 #1918
 
 m = []
-for rowOfCellObjects in mosheet['M2':'M25']:
+for rowOfCellObjects in ILsheet['M2':'M25']:
     for cellObj in rowOfCellObjects:
         m.append(cellObj.value)
 
@@ -46,7 +46,7 @@ for i in m:
 #1919
 
 n = []
-for rowOfCellObjects in mosheet['N2':'N25']:
+for rowOfCellObjects in ILsheet['N2':'N25']:
     for cellObj in rowOfCellObjects:
         n.append(cellObj.value)
 
@@ -62,7 +62,7 @@ for i in n:
 #1920
 
 o = []
-for rowOfCellObjects in mosheet['O2':'O25']:
+for rowOfCellObjects in ILsheet['O2':'O25']:
     for cellObj in rowOfCellObjects:
         o.append(cellObj.value)
 
@@ -78,7 +78,7 @@ for i in o:
 #1921
 
 p = []
-for rowOfCellObjects in mosheet['P2':'P25']:
+for rowOfCellObjects in ILsheet['P2':'P25']:
     for cellObj in rowOfCellObjects:
         p.append(cellObj.value)
 
@@ -94,7 +94,7 @@ for i in p:
 #1922
 
 q = []
-for rowOfCellObjects in mosheet['Q2':'Q25']:
+for rowOfCellObjects in ILsheet['Q2':'Q25']:
     for cellObj in rowOfCellObjects:
         q.append(cellObj.value)
 
@@ -110,7 +110,7 @@ for i in q:
 #1923
 
 r = []
-for rowOfCellObjects in mosheet['R2':'R25']:
+for rowOfCellObjects in ILsheet['R2':'R25']:
     for cellObj in rowOfCellObjects:
         r.append(cellObj.value)
 
@@ -126,7 +126,7 @@ for i in r:
 #1924
 
 s = []
-for rowOfCellObjects in mosheet['S2':'S25']:
+for rowOfCellObjects in ILsheet['S2':'S25']:
     for cellObj in rowOfCellObjects:
         s.append(cellObj.value)
 
@@ -142,7 +142,7 @@ for i in s:
 #1925
 
 t = []
-for rowOfCellObjects in mosheet['T2':'T25']:
+for rowOfCellObjects in ILsheet['T2':'T25']:
     for cellObj in rowOfCellObjects:
         t.append(cellObj.value)
 
@@ -158,7 +158,7 @@ for i in t:
 #1926
 
 u = []
-for rowOfCellObjects in mosheet['U2':'U25']:
+for rowOfCellObjects in ILsheet['U2':'U25']:
     for cellObj in rowOfCellObjects:
         u.append(cellObj.value)
 
@@ -174,7 +174,7 @@ for i in u:
 #1927
 
 v = []
-for rowOfCellObjects in mosheet['V2':'V25']:
+for rowOfCellObjects in ILsheet['V2':'V25']:
     for cellObj in rowOfCellObjects:
         v.append(cellObj.value)
 
@@ -190,7 +190,7 @@ for i in v:
 #1928
 
 w = []
-for rowOfCellObjects in mosheet['W2':'W25']:
+for rowOfCellObjects in ILsheet['W2':'W25']:
     for cellObj in rowOfCellObjects:
         w.append(cellObj.value)
 
@@ -207,7 +207,7 @@ for i in w:
 #have to skip using x here as variable for lists because of use as variable elsewhere
 
 y = []
-for rowOfCellObjects in mosheet['X2':'X25']:
+for rowOfCellObjects in ILsheet['X2':'X25']:
     for cellObj in rowOfCellObjects:
         y.append(cellObj.value)
 
@@ -223,7 +223,7 @@ for i in y:
 #1930
 
 z = []
-for rowOfCellObjects in mosheet['Y2':'Y25']:
+for rowOfCellObjects in ILsheet['Y2':'Y25']:
     for cellObj in rowOfCellObjects:
         z.append(cellObj.value)
 
@@ -239,7 +239,7 @@ for i in z:
 #1931
 
 a = []
-for rowOfCellObjects in mosheet['Z2':'Z25']:
+for rowOfCellObjects in ILsheet['Z2':'Z25']:
     for cellObj in rowOfCellObjects:
         a.append(cellObj.value)
 
@@ -255,7 +255,7 @@ for i in a:
 #1932
 
 b = []
-for rowOfCellObjects in mosheet['AA2':'AA25']:
+for rowOfCellObjects in ILsheet['AA2':'AA25']:
     for cellObj in rowOfCellObjects:
         b.append(cellObj.value)
 
@@ -271,7 +271,7 @@ for i in b:
 #1933
 
 c = []
-for rowOfCellObjects in mosheet['AB2':'AB25']:
+for rowOfCellObjects in ILsheet['AB2':'AB25']:
     for cellObj in rowOfCellObjects:
         c.append(cellObj.value)
 
@@ -287,7 +287,7 @@ for i in c:
 #1934
 
 d = []
-for rowOfCellObjects in mosheet['AC2':'AC25']:
+for rowOfCellObjects in ILsheet['AC2':'AC25']:
     for cellObj in rowOfCellObjects:
         d.append(cellObj.value)
 
@@ -303,7 +303,7 @@ for i in d:
 #1935
 
 e = []
-for rowOfCellObjects in mosheet['AD2':'AD25']:
+for rowOfCellObjects in ILsheet['AD2':'AD25']:
     for cellObj in rowOfCellObjects:
         e.append(cellObj.value)
 
@@ -319,7 +319,7 @@ for i in e:
 #1936
 
 f = []
-for rowOfCellObjects in mosheet['AE2':'AE25']:
+for rowOfCellObjects in ILsheet['AE2':'AE25']:
     for cellObj in rowOfCellObjects:
         f.append(cellObj.value)
 
@@ -335,7 +335,7 @@ for i in f:
 #1937
 
 g = []
-for rowOfCellObjects in mosheet['AF2':'AF25']:
+for rowOfCellObjects in ILsheet['AF2':'AF25']:
     for cellObj in rowOfCellObjects:
         g.append(cellObj.value)
 
@@ -351,7 +351,7 @@ for i in g:
 #1938
 
 h = []
-for rowOfCellObjects in mosheet['cr2':'cr25']:
+for rowOfCellObjects in ILsheet['cr2':'cr25']:
     for cellObj in rowOfCellObjects:
         h.append(cellObj.value)
 
@@ -368,7 +368,7 @@ for i in h:
 #skipping using i for lists because used elsewhere
 
 j = []
-for rowOfCellObjects in mosheet['AH2':'AH25']:
+for rowOfCellObjects in ILsheet['AH2':'AH25']:
     for cellObj in rowOfCellObjects:
         j.append(cellObj.value)
 
@@ -384,7 +384,7 @@ for i in j:
 #1940
 
 k = []
-for rowOfCellObjects in mosheet['AI2':'AI25']:
+for rowOfCellObjects in ILsheet['AI2':'AI25']:
     for cellObj in rowOfCellObjects:
         k.append(cellObj.value)
 
@@ -400,7 +400,7 @@ for i in k:
 #1941
 
 aa = []
-for rowOfCellObjects in mosheet['AJ2':'AJ25']:
+for rowOfCellObjects in ILsheet['AJ2':'AJ25']:
     for cellObj in rowOfCellObjects:
         aa.append(cellObj.value)
 
@@ -416,7 +416,7 @@ for i in aa:
 #1942
 
 ab = []
-for rowOfCellObjects in mosheet['AK2':'AK25']:
+for rowOfCellObjects in ILsheet['AK2':'AK25']:
     for cellObj in rowOfCellObjects:
         ab.append(cellObj.value)
 
@@ -432,7 +432,7 @@ for i in ab:
 #1943
 
 ac = []
-for rowOfCellObjects in mosheet['AL2':'AL25']:
+for rowOfCellObjects in ILsheet['AL2':'AL25']:
     for cellObj in rowOfCellObjects:
         ac.append(cellObj.value)
 
@@ -448,7 +448,7 @@ for i in ac:
 #1944
 
 ad = []
-for rowOfCellObjects in mosheet['AM2':'AM25']:
+for rowOfCellObjects in ILsheet['AM2':'AM25']:
     for cellObj in rowOfCellObjects:
         ad.append(cellObj.value)
 
@@ -464,7 +464,7 @@ for i in ad:
 #1945
 
 ae = []
-for rowOfCellObjects in mosheet['AN2':'AN25']:
+for rowOfCellObjects in ILsheet['AN2':'AN25']:
     for cellObj in rowOfCellObjects:
         ae.append(cellObj.value)
 
@@ -480,7 +480,7 @@ for i in ae:
 #1946
 
 af = []
-for rowOfCellObjects in mosheet['AO2':'AO25']:
+for rowOfCellObjects in ILsheet['AO2':'AO25']:
     for cellObj in rowOfCellObjects:
         af.append(cellObj.value)
 
@@ -496,7 +496,7 @@ for i in af:
 #1947
 
 cr = []
-for rowOfCellObjects in mosheet['AP2':'AP25']:
+for rowOfCellObjects in ILsheet['AP2':'AP25']:
     for cellObj in rowOfCellObjects:
         cr.append(cellObj.value)
 
@@ -511,7 +511,7 @@ for i in cr:
 
 # all of the above loops calculate the first part of winter for the first 30 years in this dataset. next, we'll calculate the last part of winter for the first 30 years, minus 1917, because winter of 1917 spans 1917-1918. then, we'll do the all of the same for the last 30 years in the dataset.
 # next comes pulling out last spring freeze values for the first 30 years, then final winter length calculation for that season
-# WL lists are all corresponding season lengths for all 24 stations
+# WL lists are all corresponding season lengths for all 36 stations
 # station lists will include all season lengths for that particular station
 
 station0 = []
@@ -538,16 +538,28 @@ station20 = []
 station21 = []
 station22 = []
 station23 = []
+station24 = []
+station25 = []
+station26 = []
+station27 = []
+station28 = []
+station29 = []
+station30 = []
+station31 = []
+station32 = []
+station33 = []
+station34 = []
+station35 = []
 
 #last spring freeze values for #1918
 
 ba = []
 
-for rowOfCellObjects in mosheet['DR2':'DR25']:
+for rowOfCellObjects in ILsheet['DR2':'DR25']:
     for cellObj in rowOfCellObjects:
         ba.append(cellObj.value)
 
-#final winter length calculation for 1917-1918 season for all of 24 Missouri stations
+#final winter length calculation for 1917-1918 season for all of 36 Illinois stations 
 
 WL_0 = [] #all 1917-1918 winter lengths
 
@@ -719,15 +731,17 @@ except:
 WL_0.append(winter_1917_1918_23)
 station23.append(winter_1917_1918_23)
 
+print WL_0
+
 #last spring freeze values for #1919
 
 bb = []
 
-for rowOfCellObjects in mosheet['DS2':'DS25']:
+for rowOfCellObjects in ILsheet['DS2':'DS25']:
     for cellObj in rowOfCellObjects:
         bb.append(cellObj.value)
 
-#final winter length calculation for 1918-1919 season for all of 24 Missouri stations
+#final winter length calculation for 1918-1919 season for all of 36 Illinois stations 
 
 WL_1 = [] #all 1918-1919 winter lengths
 
@@ -903,12 +917,12 @@ station23.append(winter_1918_1919_23)
 
 bc = []
 
-for rowOfCellObjects in mosheet['DT2':'DT25']:
+for rowOfCellObjects in ILsheet['DT2':'DT25']:
     for cellObj in rowOfCellObjects:
         bc.append(cellObj.value)
 
 
-#final winter length calculation for 1919-1920 season for all of 24 Missouri stations
+#final winter length calculation for 1919-1920 season for all of 36 Illinois stations 
 
 WL_2 = [] #all 1919-1920 winter lengths
 
@@ -1084,12 +1098,12 @@ station23.append(winter_1919_1920_23)
 
 bd = []
 
-for rowOfCellObjects in mosheet['DU2':'DU25']:
+for rowOfCellObjects in ILsheet['DU2':'DU25']:
     for cellObj in rowOfCellObjects:
         bd.append(cellObj.value)
 
 
-#final winter length calculation for 1920-1921 season for all of 24 Missouri stations
+#final winter length calculation for 1920-1921 season for all of 36 Illinois stations 
 
 WL_3 = [] #all 1920-1921 winter lengths
 
@@ -1265,12 +1279,12 @@ station23.append(winter_1920_1921_23)
 
 be = []
 
-for rowOfCellObjects in mosheet['DV2':'DV25']:
+for rowOfCellObjects in ILsheet['DV2':'DV25']:
     for cellObj in rowOfCellObjects:
         be.append(cellObj.value)
 
 
-#final winter length calculation for 1921-1922 season for all of 24 Missouri stations
+#final winter length calculation for 1921-1922 season for all of 36 Illinois stations 
 
 WL_4 = [] #all 1921-1922 winter lengths
 
@@ -1446,12 +1460,12 @@ station23.append(winter_1921_1922_23)
 
 bf = []
 
-for rowOfCellObjects in mosheet['DW2':'DW25']:
+for rowOfCellObjects in ILsheet['DW2':'DW25']:
     for cellObj in rowOfCellObjects:
         bf.append(cellObj.value)
 
 
-#final winter length calculation for 1922-1923 season for all of 24 Missouri stations
+#final winter length calculation for 1922-1923 season for all of 36 Illinois stations 
 
 WL_5 = [] #all 1922-1923 winter lengths
 
@@ -1627,12 +1641,12 @@ station23.append(winter_1922_1923_23)
 
 bg = []
 
-for rowOfCellObjects in mosheet['DX2':'DX25']:
+for rowOfCellObjects in ILsheet['DX2':'DX25']:
     for cellObj in rowOfCellObjects:
         bg.append(cellObj.value)
 
 
-#final winter length calculation for 1923-1924 season for all of 24 Missouri stations
+#final winter length calculation for 1923-1924 season for all of 36 Illinois stations 
 
 WL_6 = [] #all 1923-1924 winter lengths
 
@@ -1808,11 +1822,11 @@ station23.append(winter_1923_1924_23)
 
 bh = []
 
-for rowOfCellObjects in mosheet['DY2':'DY25']:
+for rowOfCellObjects in ILsheet['DY2':'DY25']:
     for cellObj in rowOfCellObjects:
         bh.append(cellObj.value)
 
-#final winter length calculation for 1924-1925 season for all of 24 Missouri stations
+#final winter length calculation for 1924-1925 season for all of 36 Illinois stations 
 
 WL_7 = [] #all 1924-1925 winter lengths
 
@@ -1988,11 +2002,11 @@ station23.append(winter_1924_1925_23)
 
 bi = []
 
-for rowOfCellObjects in mosheet['DZ2':'DZ25']:
+for rowOfCellObjects in ILsheet['DZ2':'DZ25']:
     for cellObj in rowOfCellObjects:
         bi.append(cellObj.value)
 
-#final winter length calculation for 1925-1926 season for all of 24 Missouri stations
+#final winter length calculation for 1925-1926 season for all of 36 Illinois stations 
 
 WL_8 = [] #all 1925-1926 winter lengths
 
@@ -2168,11 +2182,11 @@ station23.append(winter_1925_1926_23)
 
 bj = []
 
-for rowOfCellObjects in mosheet['EA2':'EA25']:
+for rowOfCellObjects in ILsheet['EA2':'EA25']:
     for cellObj in rowOfCellObjects:
         bj.append(cellObj.value)
 
-#final winter length calculation for 1926-1927 season for all of 24 Missouri stations
+#final winter length calculation for 1926-1927 season for all of 36 Illinois stations 
 
 WL_9 = [] #all 1926-1927 winter lengths
 
@@ -2348,11 +2362,11 @@ station23.append(winter_1926_1927_23)
 
 bk = []
 
-for rowOfCellObjects in mosheet['EB2':'EB25']:
+for rowOfCellObjects in ILsheet['EB2':'EB25']:
     for cellObj in rowOfCellObjects:
         bk.append(cellObj.value)
 
-#final winter length calculation for 1927-1928 season for all of 24 Missouri stations
+#final winter length calculation for 1927-1928 season for all of 36 Illinois stations 
 
 WL_10 = [] #all 1927-1928 winter lengths
 
@@ -2528,11 +2542,11 @@ station23.append(winter_1927_1928_23)
 
 bl = []
 
-for rowOfCellObjects in mosheet['EC2':'EC25']:
+for rowOfCellObjects in ILsheet['EC2':'EC25']:
     for cellObj in rowOfCellObjects:
         bl.append(cellObj.value)
 
-#final winter length calculation for 1928-1929 season for all of 24 Missouri stations
+#final winter length calculation for 1928-1929 season for all of 36 Illinois stations 
 
 WL_11 = [] #all 1928-1929 winter lengths
 
@@ -2708,11 +2722,11 @@ station23.append(winter_1928_1929_23)
 
 bm = []
 
-for rowOfCellObjects in mosheet['ED2':'ED25']:
+for rowOfCellObjects in ILsheet['ED2':'ED25']:
     for cellObj in rowOfCellObjects:
         bm.append(cellObj.value)
 
-#final winter length calculation for 1929-1930 season for all of 24 Missouri stations
+#final winter length calculation for 1929-1930 season for all of 36 Illinois stations 
 
 WL_12 = [] #all 1929-1930 winter lengths
 
@@ -2888,11 +2902,11 @@ station23.append(winter_1929_1930_23)
 
 bn = []
 
-for rowOfCellObjects in mosheet['EE2':'EE25']:
+for rowOfCellObjects in ILsheet['EE2':'EE25']:
     for cellObj in rowOfCellObjects:
         bn.append(cellObj.value)
 
-#final winter length calculation for 1930-1931 season for all of 24 Missouri stations
+#final winter length calculation for 1930-1931 season for all of 36 Illinois stations 
 
 WL_13 = [] #all 1930-1931 winter lengths
 
@@ -3068,11 +3082,11 @@ station23.append(winter_1930_1931_23)
 
 bo = []
 
-for rowOfCellObjects in mosheet['EF2':'EF25']:
+for rowOfCellObjects in ILsheet['EF2':'EF25']:
     for cellObj in rowOfCellObjects:
         bo.append(cellObj.value)
 
-#final winter length calculation for 1931-1932 season for all of 24 Missouri stations
+#final winter length calculation for 1931-1932 season for all of 36 Illinois stations 
 
 WL_14 = [] #all 1931-1932 winter lengths
 
@@ -3248,11 +3262,11 @@ station23.append(winter_1931_1932_23)
 
 bp = []
 
-for rowOfCellObjects in mosheet['EG2':'EG25']:
+for rowOfCellObjects in ILsheet['EG2':'EG25']:
     for cellObj in rowOfCellObjects:
         bp.append(cellObj.value)
 
-#final winter length calculation for 1932-1933 season for all of 24 Missouri stations
+#final winter length calculation for 1932-1933 season for all of 36 Illinois stations 
 
 WL_15 = [] #all 1932-1933 winter lengths
 
@@ -3428,11 +3442,11 @@ station23.append(winter_1932_1933_23)
 
 bq = []
 
-for rowOfCellObjects in mosheet['EH2':'EH25']:
+for rowOfCellObjects in ILsheet['EH2':'EH25']:
     for cellObj in rowOfCellObjects:
         bq.append(cellObj.value)
 
-#final winter length calculation for 1933-1934 season for all of 24 Missouri stations
+#final winter length calculation for 1933-1934 season for all of 36 Illinois stations 
 
 WL_16 = [] #all 1933-1934 winter lengths
 
@@ -3608,11 +3622,11 @@ station23.append(winter_1933_1934_23)
 
 br = []
 
-for rowOfCellObjects in mosheet['EI2':'EI25']:
+for rowOfCellObjects in ILsheet['EI2':'EI25']:
     for cellObj in rowOfCellObjects:
         br.append(cellObj.value)
 
-#final winter length calculation for 1934-1935 season for all of 24 Missouri stations
+#final winter length calculation for 1934-1935 season for all of 36 Illinois stations 
 
 WL_17 = [] #all 1934-1935 winter lengths
 
@@ -3788,11 +3802,11 @@ station23.append(winter_1934_1935_23)
 
 bs = []
 
-for rowOfCellObjects in mosheet['EJ2':'EJ25']:
+for rowOfCellObjects in ILsheet['EJ2':'EJ25']:
     for cellObj in rowOfCellObjects:
         bs.append(cellObj.value)
 
-#final winter length calculation for 1935-1936 season for all of 24 Missouri stations
+#final winter length calculation for 1935-1936 season for all of 36 Illinois stations 
 
 WL_18 = [] #all 1935-1936 winter lengths
 
@@ -3968,11 +3982,11 @@ station23.append(winter_1935_1936_23)
 
 bt = []
 
-for rowOfCellObjects in mosheet['EK2':'EK25']:
+for rowOfCellObjects in ILsheet['EK2':'EK25']:
     for cellObj in rowOfCellObjects:
         bt.append(cellObj.value)
 
-#final winter length calculation for 1936-1937 season for all of 24 Missouri stations
+#final winter length calculation for 1936-1937 season for all of 36 Illinois stations 
 
 WL_19 = [] #all 1936-1937 winter lengths
 
@@ -4148,11 +4162,11 @@ station23.append(winter_1936_1937_23)
 
 bu = []
 
-for rowOfCellObjects in mosheet['EL2':'EL25']:
+for rowOfCellObjects in ILsheet['EL2':'EL25']:
     for cellObj in rowOfCellObjects:
         bu.append(cellObj.value)
 
-#final winter length calculation for 1937-1938 season for all of 24 Missouri stations
+#final winter length calculation for 1937-1938 season for all of 36 Illinois stations 
 
 WL_20 = [] #all 1937-1938 winter lengths
 
@@ -4328,11 +4342,11 @@ station23.append(winter_1937_1938_23)
 
 bv = []
 
-for rowOfCellObjects in mosheet['EM2':'EM25']:
+for rowOfCellObjects in ILsheet['EM2':'EM25']:
     for cellObj in rowOfCellObjects:
         bv.append(cellObj.value)
 
-#final winter length calculation for 1938-1939 season for all of 24 Missouri stations
+#final winter length calculation for 1938-1939 season for all of 36 Illinois stations 
 
 WL_21 = [] #all 1938-1939 winter lengths
 
@@ -4508,11 +4522,11 @@ station23.append(winter_1938_1939_23)
 
 bw = []
 
-for rowOfCellObjects in mosheet['EN2':'EN25']:
+for rowOfCellObjects in ILsheet['EN2':'EN25']:
     for cellObj in rowOfCellObjects:
         bw.append(cellObj.value)
 
-#final winter length calculation for 1939-1940 season for all of 24 Missouri stations
+#final winter length calculation for 1939-1940 season for all of 36 Illinois stations 
 
 WL_22 = [] #all 1939-1940 winter lengths
 
@@ -4688,11 +4702,11 @@ station23.append(winter_1939_1940_23)
 
 bx = []
 
-for rowOfCellObjects in mosheet['EO2':'EO25']:
+for rowOfCellObjects in ILsheet['EO2':'EO25']:
     for cellObj in rowOfCellObjects:
         bx.append(cellObj.value)
 
-#final winter length calculation for 1940-1941 season for all of 24 Missouri stations
+#final winter length calculation for 1940-1941 season for all of 36 Illinois stations 
 
 WL_23 = [] #all 1940-1941 winter lengths
 
@@ -4868,11 +4882,11 @@ station23.append(winter_1940_1941_23)
 
 by = []
 
-for rowOfCellObjects in mosheet['EP2':'EP25']:
+for rowOfCellObjects in ILsheet['EP2':'EP25']:
     for cellObj in rowOfCellObjects:
         by.append(cellObj.value)
 
-#final winter length calculation for 1941-1942 season for all of 24 Missouri stations
+#final winter length calculation for 1941-1942 season for all of 36 Illinois stations 
 
 WL_24 = [] #all 1941-1942 winter lengths
 
@@ -5048,11 +5062,11 @@ station23.append(winter_1941_1942_23)
 
 bz = []
 
-for rowOfCellObjects in mosheet['EQ2':'EQ25']:
+for rowOfCellObjects in ILsheet['EQ2':'EQ25']:
     for cellObj in rowOfCellObjects:
         bz.append(cellObj.value)
 
-#final winter length calculation for 1942-1943 season for all of 24 Missouri stations
+#final winter length calculation for 1942-1943 season for all of 36 Illinois stations 
 
 WL_25 = [] #all 1942-1943 winter lengths
 
@@ -5228,11 +5242,11 @@ station23.append(winter_1942_1943_23)
 
 ca = []
 
-for rowOfCellObjects in mosheet['ER2':'ER25']:
+for rowOfCellObjects in ILsheet['ER2':'ER25']:
     for cellObj in rowOfCellObjects:
         ca.append(cellObj.value)
 
-#final winter length calculation for 1943-1944 season for all of 24 Missouri stations
+#final winter length calculation for 1943-1944 season for all of 36 Illinois stations 
 
 WL_26 = [] #all 1943-1944 winter lengths
 
@@ -5408,11 +5422,11 @@ station23.append(winter_1943_1944_23)
 
 cb = []
 
-for rowOfCellObjects in mosheet['ES2':'ES25']:
+for rowOfCellObjects in ILsheet['ES2':'ES25']:
     for cellObj in rowOfCellObjects:
         cb.append(cellObj.value)
 
-#final winter length cblculation for 1944-1945 season for all of 24 Missouri stations
+#final winter length cblculation for 1944-1945 season for all of 36 Illinois stations 
 
 WL_27 = [] #all 1944-1945 winter lengths
 
@@ -5588,11 +5602,11 @@ station23.append(winter_1944_1945_23)
 
 cc = []
 
-for rowOfCellObjects in mosheet['ET2':'ET25']:
+for rowOfCellObjects in ILsheet['ET2':'ET25']:
     for cellObj in rowOfCellObjects:
         cc.append(cellObj.value)
 
-#final winter length cclculation for 1945-1946 season for all of 24 Missouri stations
+#final winter length cclculation for 1945-1946 season for all of 36 Illinois stations 
 
 WL_28 = [] #all 1945-1946 winter lengths
 
@@ -5768,11 +5782,11 @@ station23.append(winter_1945_1946_23)
 
 cd = []
 
-for rowOfCellObjects in mosheet['EU2':'EU25']:
+for rowOfCellObjects in ILsheet['EU2':'EU25']:
     for cellObj in rowOfCellObjects:
         cd.append(cellObj.value)
 
-#final winter length cdlculation for 1946-1947 season for all of 24 Missouri stations
+#final winter length cdlculation for 1946-1947 season for all of 36 Illinois stations 
 
 WL_29 = [] #all 1946-1947 winter lengths
 
@@ -5948,11 +5962,11 @@ station23.append(winter_1946_1947_23)
 
 ce = []
 
-for rowOfCellObjects in mosheet['EV2':'EV25']:
+for rowOfCellObjects in ILsheet['EV2':'EV25']:
     for cellObj in rowOfCellObjects:
         ce.append(cellObj.value)
 
-#final winter length calculation for 1946-1947 season for all of 24 Missouri stations
+#final winter length calculation for 1946-1947 season for all of 36 Illinois stations 
 
 WL_30 = [] #all 1946-1947 winter lengths
 
@@ -6135,7 +6149,7 @@ station23.append(winter_1947_1948_23)
 #getting cell values out of each column; each column is a year
 
 ah = []
-for rowOfCellObjects in mosheet['CB2':'CB25']:
+for rowOfCellObjects in ILsheet['CB2':'CB25']:
     for cellObj in rowOfCellObjects:
         ah.append(cellObj.value)
 
@@ -6151,7 +6165,7 @@ for i in ah:
 #1986
 
 ai = []
-for rowOfCellObjects in mosheet['CC2':'CC25']:
+for rowOfCellObjects in ILsheet['CC2':'CC25']:
     for cellObj in rowOfCellObjects:
         ai.append(cellObj.value)
 
@@ -6167,7 +6181,7 @@ for i in ai:
 #1987
 
 aj = []
-for rowOfCellObjects in mosheet['CD2':'CD25']:
+for rowOfCellObjects in ILsheet['CD2':'CD25']:
     for cellObj in rowOfCellObjects:
         aj.append(cellObj.value)
 
@@ -6183,7 +6197,7 @@ for i in aj:
 #1988
 
 ak = []
-for rowOfCellObjects in mosheet['CE2':'CE25']:
+for rowOfCellObjects in ILsheet['CE2':'CE25']:
     for cellObj in rowOfCellObjects:
         ak.append(cellObj.value)
 
@@ -6199,7 +6213,7 @@ for i in ak:
 #1989
 
 al = []
-for rowOfCellObjects in mosheet['CF2':'CF25']:
+for rowOfCellObjects in ILsheet['CF2':'CF25']:
     for cellObj in rowOfCellObjects:
         al.append(cellObj.value)
 
@@ -6215,7 +6229,7 @@ for i in al:
 #1990
 
 am = []
-for rowOfCellObjects in mosheet['CG2':'CG25']:
+for rowOfCellObjects in ILsheet['CG2':'CG25']:
     for cellObj in rowOfCellObjects:
         am.append(cellObj.value)
 
@@ -6231,7 +6245,7 @@ for i in am:
 #1991
 
 an = []
-for rowOfCellObjects in mosheet['CH2':'CH25']:
+for rowOfCellObjects in ILsheet['CH2':'CH25']:
     for cellObj in rowOfCellObjects:
         an.append(cellObj.value)
 
@@ -6247,7 +6261,7 @@ for i in an:
 #1992
 
 ao = []
-for rowOfCellObjects in mosheet['CI2':'CI25']:
+for rowOfCellObjects in ILsheet['CI2':'CI25']:
     for cellObj in rowOfCellObjects:
         ao.append(cellObj.value)
 
@@ -6263,7 +6277,7 @@ for i in ao:
 #1993
 
 ap = []
-for rowOfCellObjects in mosheet['CJ2':'CJ25']:
+for rowOfCellObjects in ILsheet['CJ2':'CJ25']:
     for cellObj in rowOfCellObjects:
         ap.append(cellObj.value)
 
@@ -6279,7 +6293,7 @@ for i in ap:
 #1994
 
 aq = []
-for rowOfCellObjects in mosheet['CK2':'CK25']:
+for rowOfCellObjects in ILsheet['CK2':'CK25']:
     for cellObj in rowOfCellObjects:
         aq.append(cellObj.value)
 
@@ -6295,7 +6309,7 @@ for i in aq:
 #1995
 
 ar = []
-for rowOfCellObjects in mosheet['CL2':'CL25']:
+for rowOfCellObjects in ILsheet['CL2':'CL25']:
     for cellObj in rowOfCellObjects:
         ar.append(cellObj.value)
 
@@ -6312,7 +6326,7 @@ for i in ar:
 #skipping as for variable because its a keyword
 
 at = []
-for rowOfCellObjects in mosheet['CM2':'CM25']:
+for rowOfCellObjects in ILsheet['CM2':'CM25']:
     for cellObj in rowOfCellObjects:
         at.append(cellObj.value)
 
@@ -6328,7 +6342,7 @@ for i in at:
 #1997
 
 au = []
-for rowOfCellObjects in mosheet['CN2':'CN25']:
+for rowOfCellObjects in ILsheet['CN2':'CN25']:
     for cellObj in rowOfCellObjects:
         au.append(cellObj.value)
 
@@ -6344,7 +6358,7 @@ for i in au:
 #1998
 
 av = []
-for rowOfCellObjects in mosheet['CO2':'CO25']:
+for rowOfCellObjects in ILsheet['CO2':'CO25']:
     for cellObj in rowOfCellObjects:
         av.append(cellObj.value)
 
@@ -6360,7 +6374,7 @@ for i in av:
 #1999
 
 aw = []
-for rowOfCellObjects in mosheet['CP2':'CP25']:
+for rowOfCellObjects in ILsheet['CP2':'CP25']:
     for cellObj in rowOfCellObjects:
         aw.append(cellObj.value)
 
@@ -6376,7 +6390,7 @@ for i in aw:
 #2000
 
 ax = []
-for rowOfCellObjects in mosheet['CQ2':'CQ25']:
+for rowOfCellObjects in ILsheet['CQ2':'CQ25']:
     for cellObj in rowOfCellObjects:
         ax.append(cellObj.value)
 
@@ -6392,7 +6406,7 @@ for i in ax:
 #2001
 
 ay = []
-for rowOfCellObjects in mosheet['CR2':'CR25']:
+for rowOfCellObjects in ILsheet['CR2':'CR25']:
     for cellObj in rowOfCellObjects:
         ay.append(cellObj.value)
 
@@ -6408,7 +6422,7 @@ for i in ay:
 #2002
 
 az = []
-for rowOfCellObjects in mosheet['CS2':'CS25']:
+for rowOfCellObjects in ILsheet['CS2':'CS25']:
     for cellObj in rowOfCellObjects:
         az.append(cellObj.value)
 
@@ -6424,7 +6438,7 @@ for i in az:
 #2003
 
 cf = []
-for rowOfCellObjects in mosheet['CT2':'CT25']:
+for rowOfCellObjects in ILsheet['CT2':'CT25']:
     for cellObj in rowOfCellObjects:
         cf.append(cellObj.value)
 
@@ -6440,7 +6454,7 @@ for i in cf:
 #2004
 
 cg = []
-for rowOfCellObjects in mosheet['CU2':'CU25']:
+for rowOfCellObjects in ILsheet['CU2':'CU25']:
     for cellObj in rowOfCellObjects:
         cg.append(cellObj.value)
 
@@ -6456,7 +6470,7 @@ for i in cg:
 #2005
 
 ch = []
-for rowOfCellObjects in mosheet['CV2':'CV25']:
+for rowOfCellObjects in ILsheet['CV2':'CV25']:
     for cellObj in rowOfCellObjects:
         ch.append(cellObj.value)
 
@@ -6472,7 +6486,7 @@ for i in ch:
 #2006
 
 ci = []
-for rowOfCellObjects in mosheet['CW2':'CW25']:
+for rowOfCellObjects in ILsheet['CW2':'CW25']:
     for cellObj in rowOfCellObjects:
         ci.append(cellObj.value)
 
@@ -6489,7 +6503,7 @@ for i in ci:
 
 
 cj = []
-for rowOfCellObjects in mosheet['CX2':'CX25']:
+for rowOfCellObjects in ILsheet['CX2':'CX25']:
     for cellObj in rowOfCellObjects:
         cj.append(cellObj.value)
 
@@ -6505,7 +6519,7 @@ for i in cj:
 #2008
 
 ck = []
-for rowOfCellObjects in mosheet['CY2':'CY25']:
+for rowOfCellObjects in ILsheet['CY2':'CY25']:
     for cellObj in rowOfCellObjects:
         ck.append(cellObj.value)
 
@@ -6521,7 +6535,7 @@ for i in ck:
 #2009
 
 cl = []
-for rowOfCellObjects in mosheet['CZ2':'CZ25']:
+for rowOfCellObjects in ILsheet['CZ2':'CZ25']:
     for cellObj in rowOfCellObjects:
         cl.append(cellObj.value)
 
@@ -6537,7 +6551,7 @@ for i in cl:
 #2010
 
 cm = []
-for rowOfCellObjects in mosheet['DA2':'DA25']:
+for rowOfCellObjects in ILsheet['DA2':'DA25']:
     for cellObj in rowOfCellObjects:
         cm.append(cellObj.value)
 
@@ -6553,7 +6567,7 @@ for i in cm:
 #2011
 
 cn = []
-for rowOfCellObjects in mosheet['DB2':'DB25']:
+for rowOfCellObjects in ILsheet['DB2':'DB25']:
     for cellObj in rowOfCellObjects:
         cn.append(cellObj.value)
 
@@ -6569,7 +6583,7 @@ for i in cn:
 #2012
 
 co = []
-for rowOfCellObjects in mosheet['DC2':'DC25']:
+for rowOfCellObjects in ILsheet['DC2':'DC25']:
     for cellObj in rowOfCellObjects:
         co.append(cellObj.value)
 
@@ -6585,7 +6599,7 @@ for i in co:
 #2013
 
 cp = []
-for rowOfCellObjects in mosheet['DD2':'DD25']:
+for rowOfCellObjects in ILsheet['DD2':'DD25']:
     for cellObj in rowOfCellObjects:
         cp.append(cellObj.value)
 
@@ -6601,7 +6615,7 @@ for i in cp:
 #2014
 
 cq = []
-for rowOfCellObjects in mosheet['DE2':'DE25']:
+for rowOfCellObjects in ILsheet['DE2':'DE25']:
     for cellObj in rowOfCellObjects:
         cq.append(cellObj.value)
 
@@ -6617,7 +6631,7 @@ for i in cq:
 #2015
 
 cr = []
-for rowOfCellObjects in mosheet['DF2':'DF25']:
+for rowOfCellObjects in ILsheet['DF2':'DF25']:
     for cellObj in rowOfCellObjects:
         cr.append(cellObj.value)
 
@@ -6637,11 +6651,11 @@ for i in cr:
 
 cs = []
 
-for rowOfCellObjects in mosheet['GH2':'GH25']:
+for rowOfCellObjects in ILsheet['GH2':'GH25']:
     for cellObj in rowOfCellObjects:
         cs.append(cellObj.value)
 
-#final winter length calculation for 1985-1986 season for all of 24 Missouri stations
+#final winter length calculation for 1985-1986 season for all of 36 Illinois stations 
 
 WL_31 = [] #all 1985-1986 winter lengths
 
@@ -6817,11 +6831,11 @@ station23.append(winter_1985_1986_23)
 
 ct = []
 
-for rowOfCellObjects in mosheet['GI2':'GI25']:
+for rowOfCellObjects in ILsheet['GI2':'GI25']:
     for cellObj in rowOfCellObjects:
         ct.append(cellObj.value)
 
-#final winter length calculation for 1986-1987 season for all of 24 Missouri stations
+#final winter length calculation for 1986-1987 season for all of 36 Illinois stations 
 
 WL_32 = [] #all 1986-1987 winter lengths
 
@@ -6997,11 +7011,11 @@ station23.append(winter_1986_1987_23)
 
 cu = []
 
-for rowOfCellObjects in mosheet['GJ2':'GJ25']:
+for rowOfCellObjects in ILsheet['GJ2':'GJ25']:
     for cellObj in rowOfCellObjects:
         cu.append(cellObj.value)
 
-#final winter length calculation for 1987-1988 season for all of 24 Missouri stations
+#final winter length calculation for 1987-1988 season for all of 36 Illinois stations 
 
 WL_33 = [] #all 1987-1988 winter lengths
 
@@ -7177,11 +7191,11 @@ station23.append(winter_1987_1988_23)
 
 cv = []
 
-for rowOfCellObjects in mosheet['GK2':'GK25']:
+for rowOfCellObjects in ILsheet['GK2':'GK25']:
     for cellObj in rowOfCellObjects:
         cv.append(cellObj.value)
 
-#final winter length calculation for 1988-1989 season for all of 24 Missouri stations
+#final winter length calculation for 1988-1989 season for all of 36 Illinois stations 
 
 WL_34 = [] #all 1988-1989 winter lengths
 
@@ -7357,11 +7371,11 @@ station23.append(winter_1988_1989_23)
 
 cw = []
 
-for rowOfCellObjects in mosheet['GL2':'GL25']:
+for rowOfCellObjects in ILsheet['GL2':'GL25']:
     for cellObj in rowOfCellObjects:
         cw.append(cellObj.value)
 
-#final winter length calculation for 1989-1990 season for all of 24 Missouri stations
+#final winter length calculation for 1989-1990 season for all of 36 Illinois stations 
 
 WL_35 = [] #all 1989-1990 winter lengths
 
@@ -7537,11 +7551,11 @@ station23.append(winter_1989_1990_23)
 
 cx = []
 
-for rowOfCellObjects in mosheet['GM2':'GM25']:
+for rowOfCellObjects in ILsheet['GM2':'GM25']:
     for cellObj in rowOfCellObjects:
         cx.append(cellObj.value)
 
-#final winter length calculation for 1990-1991 season for all of 24 Missouri stations
+#final winter length calculation for 1990-1991 season for all of 36 Illinois stations 
 
 WL_36 = [] #all 1990-1991 winter lengths
 
@@ -7717,11 +7731,11 @@ station23.append(winter_1990_1991_23)
 
 cy = []
 
-for rowOfCellObjects in mosheet['GN2':'GN25']:
+for rowOfCellObjects in ILsheet['GN2':'GN25']:
     for cellObj in rowOfCellObjects:
         cy.append(cellObj.value)
 
-#final winter length calculation for 1991-1992 season for all of 24 Missouri stations
+#final winter length calculation for 1991-1992 season for all of 36 Illinois stations 
 
 WL_37 = [] #all 1991-1992 winter lengths
 
@@ -7897,11 +7911,11 @@ station23.append(winter_1991_1992_23)
 
 cz = []
 
-for rowOfCellObjects in mosheet['GO2':'GO25']:
+for rowOfCellObjects in ILsheet['GO2':'GO25']:
     for cellObj in rowOfCellObjects:
         cz.append(cellObj.value)
 
-#final winter length calculation for 1992-1993 season for all of 24 Missouri stations
+#final winter length calculation for 1992-1993 season for all of 36 Illinois stations 
 
 WL_38 = [] #all 1992-1993 winter lengths
 
@@ -8077,11 +8091,11 @@ station23.append(winter_1992_1993_23)
 
 da = []
 
-for rowOfCellObjects in mosheet['GP2':'GP25']:
+for rowOfCellObjects in ILsheet['GP2':'GP25']:
     for cellObj in rowOfCellObjects:
         da.append(cellObj.value)
 
-#final winter length calculation for 1993-1994 season for all of 24 Missouri stations
+#final winter length calculation for 1993-1994 season for all of 36 Illinois stations 
 
 WL_39 = [] #all 1993-1994 winter lengths
 
@@ -8257,11 +8271,11 @@ station23.append(winter_1993_1994_23)
 
 db = []
 
-for rowOfCellObjects in mosheet['GQ2':'GQ25']:
+for rowOfCellObjects in ILsheet['GQ2':'GQ25']:
     for cellObj in rowOfCellObjects:
         db.append(cellObj.value)
 
-#final winter length calculation for 1994-1995 season for all of 24 Missouri stations
+#final winter length calculation for 1994-1995 season for all of 36 Illinois stations 
 
 WL_40 = [] #all 1994-1995 winter lengths
 
@@ -8437,11 +8451,11 @@ station23.append(winter_1994_1995_23)
 
 dc = []
 
-for rowOfCellObjects in mosheet['GR2':'GR25']:
+for rowOfCellObjects in ILsheet['GR2':'GR25']:
     for cellObj in rowOfCellObjects:
         dc.append(cellObj.value)
 
-#final winter length calculation for 1995-1996 season for all of 24 Missouri stations
+#final winter length calculation for 1995-1996 season for all of 36 Illinois stations 
 
 WL_41 = [] #all 1995-1996 winter lengths
 
@@ -8617,11 +8631,11 @@ station23.append(winter_1995_1996_23)
 
 dd = []
 
-for rowOfCellObjects in mosheet['GS2':'GS25']:
+for rowOfCellObjects in ILsheet['GS2':'GS25']:
     for cellObj in rowOfCellObjects:
         dd.append(cellObj.value)
 
-#final winter length calculation for 1996-1997 season for all of 24 Missouri stations
+#final winter length calculation for 1996-1997 season for all of 36 Illinois stations 
 
 WL_42 = [] #all 1996-1997 winter lengths
 
@@ -8797,11 +8811,11 @@ station23.append(winter_1996_1997_23)
 
 de = []
 
-for rowOfCellObjects in mosheet['GT2':'GT25']:
+for rowOfCellObjects in ILsheet['GT2':'GT25']:
     for cellObj in rowOfCellObjects:
         de.append(cellObj.value)
 
-#final winter length calculation for 1997-1998 season for all of 24 Missouri stations
+#final winter length calculation for 1997-1998 season for all of 36 Illinois stations 
 
 WL_43 = [] #all 1997-1998 winter lengths
 
@@ -8977,11 +8991,11 @@ station23.append(winter_1997_1998_23)
 
 df = []
 
-for rowOfCellObjects in mosheet['GU2':'GU25']:
+for rowOfCellObjects in ILsheet['GU2':'GU25']:
     for cellObj in rowOfCellObjects:
         df.append(cellObj.value)
 
-#final winter length calculation for 1998-1999 season for all of 24 Missouri stations
+#final winter length calculation for 1998-1999 season for all of 36 Illinois stations 
 
 WL_44 = [] #all 1998-1999 winter lengths
 
@@ -9157,11 +9171,11 @@ station23.append(winter_1998_1999_23)
 
 dg = []
 
-for rowOfCellObjects in mosheet['GV2':'GV25']:
+for rowOfCellObjects in ILsheet['GV2':'GV25']:
     for cellObj in rowOfCellObjects:
         dg.append(cellObj.value)
 
-#final winter length calculation for 1999-2000 season for all of 24 Missouri stations
+#final winter length calculation for 1999-2000 season for all of 36 Illinois stations 
 
 WL_45 = [] #all 1999-2000 winter lengths
 
@@ -9337,11 +9351,11 @@ station23.append(winter_1999_2000_23)
 
 dh = []
 
-for rowOfCellObjects in mosheet['GW2':'GW25']:
+for rowOfCellObjects in ILsheet['GW2':'GW25']:
     for cellObj in rowOfCellObjects:
         dh.append(cellObj.value)
 
-#final winter length calculation for 2000-2001 season for all of 24 Missouri stations
+#final winter length calculation for 2000-2001 season for all of 36 Illinois stations 
 
 WL_46 = [] #all 2000-2001 winter lengths
 
@@ -9517,11 +9531,11 @@ station23.append(winter_2000_2001_23)
 
 di = []
 
-for rowOfCellObjects in mosheet['GX2':'GX25']:
+for rowOfCellObjects in ILsheet['GX2':'GX25']:
     for cellObj in rowOfCellObjects:
         di.append(cellObj.value)
 
-#final winter length calculation for 2001-2002 season for all of 24 Missouri stations
+#final winter length calculation for 2001-2002 season for all of 36 Illinois stations 
 
 WL_47 = [] #all 2001-2002 winter lengths
 
@@ -9697,11 +9711,11 @@ station23.append(winter_2001_2002_23)
 
 dj = []
 
-for rowOfCellObjects in mosheet['GY2':'GY25']:
+for rowOfCellObjects in ILsheet['GY2':'GY25']:
     for cellObj in rowOfCellObjects:
         dj.append(cellObj.value)
 
-#final winter length calculation for 2002-2003 season for all of 24 Missouri stations
+#final winter length calculation for 2002-2003 season for all of 36 Illinois stations 
 
 WL_48 = [] #all 2002-2003 winter lengths
 
@@ -9877,11 +9891,11 @@ station23.append(winter_2002_2003_23)
 
 dk = []
 
-for rowOfCellObjects in mosheet['GZ2':'GZ25']:
+for rowOfCellObjects in ILsheet['GZ2':'GZ25']:
     for cellObj in rowOfCellObjects:
         dk.append(cellObj.value)
 
-#final winter length calculation for 2003-2004 season for all of 24 Missouri stations
+#final winter length calculation for 2003-2004 season for all of 36 Illinois stations 
 
 WL_49 = [] #all 2003-2004 winter lengths
 
@@ -10057,11 +10071,11 @@ station23.append(winter_2003_2004_23)
 
 dl = []
 
-for rowOfCellObjects in mosheet['HA2':'HA25']:
+for rowOfCellObjects in ILsheet['HA2':'HA25']:
     for cellObj in rowOfCellObjects:
         dl.append(cellObj.value)
 
-#final winter length calculation for 2004-2005 season for all of 24 Missouri stations
+#final winter length calculation for 2004-2005 season for all of 36 Illinois stations 
 
 WL_50 = [] #all 2004-2005 winter lengths
 
@@ -10237,11 +10251,11 @@ station23.append(winter_2004_2005_23)
 
 dm = []
 
-for rowOfCellObjects in mosheet['HB2':'HB25']:
+for rowOfCellObjects in ILsheet['HB2':'HB25']:
     for cellObj in rowOfCellObjects:
         dm.append(cellObj.value)
 
-#final winter length calculation for 2005-2006 season for all of 24 Missouri stations
+#final winter length calculation for 2005-2006 season for all of 36 Illinois stations 
 
 WL_51 = [] #all 2005-2006 winter lengths
 
@@ -10417,11 +10431,11 @@ station23.append(winter_2005_2006_23)
 
 dn = []
 
-for rowOfCellObjects in mosheet['HC2':'HC25']:
+for rowOfCellObjects in ILsheet['HC2':'HC25']:
     for cellObj in rowOfCellObjects:
         dn.append(cellObj.value)
 
-#final winter length calculation for 2006-2007 season for all of 24 Missouri stations
+#final winter length calculation for 2006-2007 season for all of 36 Illinois stations 
 
 WL_52 = [] #all 2006-2007 winter lengths
 
@@ -10597,11 +10611,11 @@ station23.append(winter_2006_2007_23)
 
 do = []
 
-for rowOfCellObjects in mosheet['HD2':'HD25']:
+for rowOfCellObjects in ILsheet['HD2':'HD25']:
     for cellObj in rowOfCellObjects:
         do.append(cellObj.value)
 
-#final winter length calculation for 2007-2008 season for all of 24 Missouri stations
+#final winter length calculation for 2007-2008 season for all of 36 Illinois stations 
 
 WL_53 = [] #all 2007-2008 winter lengths
 
@@ -10777,11 +10791,11 @@ station23.append(winter_2007_2008_23)
 
 dp = []
 
-for rowOfCellObjects in mosheet['HE2':'HE25']:
+for rowOfCellObjects in ILsheet['HE2':'HE25']:
     for cellObj in rowOfCellObjects:
         dp.append(cellObj.value)
 
-#final winter length calculation for 2008-2009 season for all of 24 Missouri stations
+#final winter length calculation for 2008-2009 season for all of 36 Illinois stations 
 
 WL_54 = [] #all 2008-2009 winter lengths
 
@@ -10957,11 +10971,11 @@ station23.append(winter_2008_2009_23)
 
 dq = []
 
-for rowOfCellObjects in mosheet['HF2':'HF25']:
+for rowOfCellObjects in ILsheet['HF2':'HF25']:
     for cellObj in rowOfCellObjects:
         dq.append(cellObj.value)
 
-#final winter length calculation for 2009-2010 season for all of 24 Missouri stations
+#final winter length calculation for 2009-2010 season for all of 36 Illinois stations 
 
 WL_55 = [] #all 2009-2010 winter lengths
 
@@ -11137,11 +11151,11 @@ station23.append(winter_2009_2010_23)
 
 dr = []
 
-for rowOfCellObjects in mosheet['HG2':'HG25']:
+for rowOfCellObjects in ILsheet['HG2':'HG25']:
     for cellObj in rowOfCellObjects:
         dr.append(cellObj.value)
 
-#final winter length calculation for 2010-2011 season for all of 24 Missouri stations
+#final winter length calculation for 2010-2011 season for all of 36 Illinois stations 
 
 WL_56 = [] #all 2010-2011 winter lengths
 
@@ -11317,11 +11331,11 @@ station23.append(winter_2010_2011_23)
 
 ds = []
 
-for rowOfCellObjects in mosheet['HH2':'HH25']:
+for rowOfCellObjects in ILsheet['HH2':'HH25']:
     for cellObj in rowOfCellObjects:
         ds.append(cellObj.value)
 
-#final winter length calculation for 2011-2012 season for all of 24 Missouri stations
+#final winter length calculation for 2011-2012 season for all of 36 Illinois stations 
 
 WL_57 = [] #all 2011-2012 winter lengths
 
@@ -11497,11 +11511,11 @@ station23.append(winter_2011_2012_23)
 
 dt = []
 
-for rowOfCellObjects in mosheet['HI2':'HI25']:
+for rowOfCellObjects in ILsheet['HI2':'HI25']:
     for cellObj in rowOfCellObjects:
         dt.append(cellObj.value)
 
-#final winter length calculation for 2012-2013 season for all of 24 Missouri stations
+#final winter length calculation for 2012-2013 season for all of 36 Illinois stations 
 
 WL_58 = [] #all 2012-2013 winter lengths
 
@@ -11677,11 +11691,11 @@ station23.append(winter_2012_2013_23)
 
 du = []
 
-for rowOfCellObjects in mosheet['HJ2':'HJ25']:
+for rowOfCellObjects in ILsheet['HJ2':'HJ25']:
     for cellObj in rowOfCellObjects:
         du.append(cellObj.value)
 
-#final winter length calculation for 2013-2014 season for all of 24 Missouri stations
+#final winter length calculation for 2013-2014 season for all of 36 Illinois stations 
 
 WL_59 = [] #all 2013-2014 winter lengths
 
@@ -11857,11 +11871,11 @@ station23.append(winter_2013_2014_23)
 
 dv = []
 
-for rowOfCellObjects in mosheet['HK2':'HK25']:
+for rowOfCellObjects in ILsheet['HK2':'HK25']:
     for cellObj in rowOfCellObjects:
         dv.append(cellObj.value)
 
-#final winter length calculation for 2014-2015 season for all of 24 Missouri stations
+#final winter length calculation for 2014-2015 season for all of 36 Illinois stations 
 
 WL_60 = [] #all 2014-2015 winter lengths
 
@@ -12037,11 +12051,11 @@ station23.append(winter_2014_2015_23)
 
 dw = []
 
-for rowOfCellObjects in mosheet['HL2':'HL25']:
+for rowOfCellObjects in ILsheet['HL2':'HL25']:
     for cellObj in rowOfCellObjects:
         dw.append(cellObj.value)
 
-#final winter length calculation for 2015-2016 season for all of 24 Missouri stations
+#final winter length calculation for 2015-2016 season for all of 36 Illinois stations 
 
 WL_61 = [] #all 2015-2016 winter lengths
 
@@ -12213,9 +12227,9 @@ except:
 WL_61.append(winter_2015_2016_23)
 station23.append(winter_2015_2016_23)
 
-# now let's write all that work to a csv 
+# now let's write all that work to a csv
 
-with open('winter_compare.txt', 'wb') as myfile:
+with open('winter_compare_IL.txt', 'wb') as myfile:
     wr = csv.writer(myfile, quoting=csv.QUOTE_ALL)
     wr.writerow(WL_0)
     wr.writerow(WL_1)
