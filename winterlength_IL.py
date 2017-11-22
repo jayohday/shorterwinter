@@ -731,8 +731,6 @@ except:
 WL_0.append(winter_1917_1918_23)
 station23.append(winter_1917_1918_23)
 
-print WL_0
-
 #last spring freeze values for #1919
 
 bb = []
